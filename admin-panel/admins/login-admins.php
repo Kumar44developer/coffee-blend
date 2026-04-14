@@ -29,5 +29,11 @@
       if($login->rowCount() > 0) {
 
 
+        if(password_verify($password, $fetch['password'])) {
+          //start session
+
+          $_SESSION['admin_name'] = $fetch['adminname'];
+          $_SESSION['email'] = $fetch['email'];
+          $_SESSION['admin_id'] = $fetch['id'];
 
     
