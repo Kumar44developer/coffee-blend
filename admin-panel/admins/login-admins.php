@@ -24,7 +24,9 @@
       $login = $conn->query("SELECT * FROM admins WHERE email='$email'");
       $login->execute();
 
+      $fetch = $login->fetch(PDO::FETCH_ASSOC);
 
+      if($login->rowCount() > 0) {
 
 
 
