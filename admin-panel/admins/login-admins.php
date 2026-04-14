@@ -57,7 +57,9 @@
         <div class="col">
           <div class="card">
             <div class="card-body">
-
+              <h5 class="card-title mt-5">Login</h5>
+              <form method="POST" action="login-admins.php" class="p-auto">
+                  <!-- Email input -->
 
 
 
