@@ -51,7 +51,11 @@
                   <input type="password" name="password" id="form2Example1" class="form-control" placeholder="password" />
                 </div>
 
+                <!-- Submit button -->
+                <button type="submit" name="submit" class="btn btn-primary  mb-4 text-center">Create</button>
 
+          
+              </form>
 
 
 
