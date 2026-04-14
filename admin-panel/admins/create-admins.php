@@ -44,6 +44,12 @@
                   <input type="email" name="email" id="form2Example1" class="form-control" placeholder="email" />
                  
                 </div>
+                <div class="form-outline mb-4">
+                  <input type="text" name="adminname" id="form2Example1" class="form-control" placeholder="username" />
+                </div>
+                <div class="form-outline mb-4">
+                  <input type="password" name="password" id="form2Example1" class="form-control" placeholder="password" />
+                </div>
 
 
 
