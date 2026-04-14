@@ -24,3 +24,10 @@
              <a  href="create-admins.php" class="btn btn-primary mb-4 text-center float-right">Create Admins</a>
               <table class="table">
                 <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">adminname</th>
+                    <th scope="col">email</th>
+                  </tr>
+                </thead>
+                <tbody>
