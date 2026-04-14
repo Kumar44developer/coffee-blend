@@ -20,7 +20,18 @@
       $insert = $conn->prepare("INSERT INTO admins (adminname, email, password)
       VALUES (:adminname, :email, :password)");
 
+      $insert->execute([
+        ":adminname" => $adminname,
+        ":email" => $email,
+        ":password" => $password
+      ]);
 
+      header("location: admins.php");
+      
+      
+
+    }
+  }
 
 
 
