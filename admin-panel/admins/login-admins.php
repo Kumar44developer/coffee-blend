@@ -16,3 +16,16 @@
     
       $email = $_POST['email'];
       $password = $_POST['password'];
+
+
+
+      //write a query to check for email
+
+      $login = $conn->query("SELECT * FROM admins WHERE email='$email'");
+      $login->execute();
+
+
+
+
+
+    
