@@ -65,6 +65,10 @@
                    
                   </div>
 
-
+                  <!-- Password input -->
+                  <div class="form-outline mb-4">
+                    <input type="password" name="password" id="form2Example2" placeholder="Password" class="form-control" />
+                    
+                  </div>
 
 
