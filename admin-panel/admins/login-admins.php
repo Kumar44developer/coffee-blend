@@ -5,3 +5,10 @@
   if(isset($_SESSION['admin_name'])) {
     header("location: ".ADMINURL."");
   }
+
+  
+  if(isset($_POST['submit'])) {
+
+    if(empty($_POST['email']) OR empty($_POST['password'])) {
+      echo "<script>alert('one or more inputs are empty');</script>";
+    } else { 
