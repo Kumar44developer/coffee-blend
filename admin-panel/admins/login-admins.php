@@ -36,4 +36,10 @@
           $_SESSION['email'] = $fetch['email'];
           $_SESSION['admin_id'] = $fetch['id'];
 
-    
+
+          header("location: ".ADMINURL."");
+
+        } else {
+          echo "<script>alert('email of password is wrong');</script>";
+
+        }    
