@@ -43,3 +43,9 @@
           echo "<script>alert('email of password is wrong');</script>";
 
         }    
+      } else {
+        echo "<script>alert('email of password is wrong');</script>";
+
+      }
+    }
+  }
