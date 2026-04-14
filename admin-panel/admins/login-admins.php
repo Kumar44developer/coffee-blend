@@ -60,7 +60,10 @@
               <h5 class="card-title mt-5">Login</h5>
               <form method="POST" action="login-admins.php" class="p-auto">
                   <!-- Email input -->
-
+                  <div class="form-outline mb-4">
+                    <input type="email" name="email" id="form2Example1" class="form-control" placeholder="Email" />
+                   
+                  </div>
 
 
 
