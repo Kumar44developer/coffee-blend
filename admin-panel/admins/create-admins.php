@@ -7,7 +7,12 @@
     header("location: ".ADMINURL."/admins/login-admins.php");
   }
 
+  
+  if(isset($_POST['submit'])) {
 
+    if(empty($_POST['adminname']) OR empty($_POST['email']) OR empty($_POST['password'])) {
+      echo "<script>alert('one or more inputs are empty');</script>";
+    } else {
 
 
 
