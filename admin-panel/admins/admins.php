@@ -31,3 +31,11 @@
                   </tr>
                 </thead>
                 <tbody>
+                 <?php foreach($allAdmins as $admin) : ?>
+                  <tr>
+                    <th scope="row"><?php echo $admin->id; ?></th>
+                    <td><?php echo $admin->adminname; ?></td>
+                    <td><?php echo $admin->email; ?></td>
+                   
+                  </tr>
+                  <?php endforeach; ?>
