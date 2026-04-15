@@ -13,3 +13,8 @@
         $id = $_GET['id'];
 
 
+        $delete = $conn->query("DELETE FROM bookings WHERE id='$id'");
+        $delete->execute();
+
+        header("location: show-bookings.php");
+    }
