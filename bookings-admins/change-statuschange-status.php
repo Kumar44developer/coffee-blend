@@ -26,7 +26,15 @@
             ":status" => $status,
             
           ]);
-
+    
+          header("location: show-bookings.php");
+          
+          
+    
+        }
+      }
+  }
+ 
 
 
 
