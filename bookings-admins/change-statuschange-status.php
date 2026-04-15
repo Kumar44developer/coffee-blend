@@ -13,7 +13,12 @@
 
     $id = $_GET['id'];
 
+    if(isset($_POST['submit'])) {
 
+        if(empty($_POST['status'])) {
+          echo "<script>alert('one or more inputs are empty');</script>";
+        } else {
+          $status = $_POST['status'];
 
 
 
