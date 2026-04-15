@@ -46,7 +46,9 @@
                 <div class="form-outline mb-4 mt-4">
 
 
-
+                  <select name="status" class="form-select  form-control" aria-label="Default select example">
+                    <option selected>Choose Status</option>
+                    <option value="Pending">Pending</option>
 
 
 
