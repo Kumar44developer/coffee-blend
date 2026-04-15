@@ -20,7 +20,12 @@
         } else {
           $status = $_POST['status'];
 
-
+          $update = $conn->prepare("UPDATE bookings SET status = :status WHERE id='$id'");
+    
+          $update->execute([
+            ":status" => $status,
+            
+          ]);
 
 
 
