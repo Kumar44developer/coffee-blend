@@ -61,7 +61,11 @@
           
               </form>
 
-
+            </div>
+          </div>
+        </div>
+      </div>
+<?php require "../layouts/footer.php"; ?>   
 
 
 
