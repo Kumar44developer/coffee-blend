@@ -49,7 +49,11 @@
                   <select name="status" class="form-select  form-control" aria-label="Default select example">
                     <option selected>Choose Status</option>
                     <option value="Pending">Pending</option>
-
+                    <option value="Confirmed">Confirmed</option>
+                    <option value="Done">Done</option>
+                  </select>
+                </div>
+               
 
 
 
