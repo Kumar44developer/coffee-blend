@@ -12,3 +12,10 @@
   $allBookings = $bookings->fetchAll(PDO::FETCH_OBJ);
 
 ?>
+
+?>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+
+
