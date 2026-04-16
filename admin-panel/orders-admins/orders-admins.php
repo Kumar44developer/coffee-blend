@@ -54,4 +54,13 @@
                   </select>
                 </div>method="POST" action="change-status.php?id=<?php echo $id; ?>">
 
+                <!-- Submit button -->
+                <button type="submit" name="submit" class="btn btn-primary  mb-4 text-center">Update</button>
+
+          
+              </form>
+
+            </div>
+          </div>
+        </div>
 
