@@ -40,7 +40,13 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo ADMINURL; ?>/orders-admins/show-orders.php" style="margin-left: 20px;">Orders</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo ADMINURL; ?>/products-admins/show-products.php" style="margin-left: 20px;">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo ADMINURL; ?>/bookings-admins/show-bookings.php" style="margin-left: 20px;">Bookings</a>
+          </li>
+        </ul>
 
 
 
