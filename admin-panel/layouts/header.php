@@ -47,7 +47,14 @@
             <a class="nav-link" href="<?php echo ADMINURL; ?>/bookings-admins/show-bookings.php" style="margin-left: 20px;">Bookings</a>
           </li>
         </ul>
-
+        <?php endif; ?>
+        <ul class="navbar-nav ml-md-auto d-md-flex">
+          <?php if(isset($_SESSION['admin_name'])) : ?>
+              <li class="nav-item">
+                <a class="nav-link" href="<?php echo ADMINURL; ?>">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
 
 
 
