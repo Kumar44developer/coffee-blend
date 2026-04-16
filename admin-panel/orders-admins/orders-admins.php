@@ -44,6 +44,14 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title mb-5 d-inline">Update Status</h5>
-          <form method="POST" action="change-status.php?id=<?php echo $id; ?>">
+          <form                 <!-- Email input -->
+                <div class="form-outline mb-4 mt-4">
+
+                  <select name="status" class="form-select  form-control" aria-label="Default select example">
+                    <option selected>Choose Type</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Delivered">Delivered</option>
+                  </select>
+                </div>method="POST" action="change-status.php?id=<?php echo $id; ?>">
 
 
