@@ -20,3 +20,18 @@
         } else {
           $status = $_POST['status'];
          
+    
+          $update = $conn->prepare("UPDATE orders SET status = :status WHERE id='$id'");
+    
+          $update->execute([
+            ":status" => $status,
+            
+          ]);
+    
+          header("location: show-orders.php");
+          
+          
+    
+        }
+      }
+  }
