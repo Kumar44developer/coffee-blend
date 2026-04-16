@@ -74,7 +74,11 @@
             <?php endif; ?>
 
 
-
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <div class="container-fluid">
 
 
 
