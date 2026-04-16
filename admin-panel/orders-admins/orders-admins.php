@@ -35,3 +35,15 @@
         }
       }
   }
+
+
+
+?>
+       <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-5 d-inline">Update Status</h5>
+          <form method="POST" action="change-status.php?id=<?php echo $id; ?>">
+
+
