@@ -64,7 +64,14 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="<?php echo ADMINURL; ?>/admins/logout.php">Logout</a>
 
+              </li>
+            <?php else : ?>
 
+              <li class="nav-item">
+                <a class="nav-link" href="<?php echo ADMINURL; ?>/admins/login-admins.php">login
+                </a>
+              </li>
+            <?php endif; ?>
 
 
 
