@@ -71,7 +71,16 @@
                   <textarea name="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
+                <div class="form-outline mb-4 mt-4">
 
+                  <select name="type" class="form-select  form-control" aria-label="Default select example">
+                    <option selected>Choose Type</option>
+                    <option value="drink">drink</option>
+                    <option value="dessert">dessert</option>
+                  </select>
+                </div>
+
+                <br>
 
 
 
