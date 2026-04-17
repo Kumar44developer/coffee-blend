@@ -24,7 +24,13 @@
        image)
       VALUES (:name, :price, :description, :type, :image)");
 
-
+      $insert->execute([
+        ":name" => $name,
+        ":price" => $price,
+        ":description" => $description,
+        ":type" => $type,
+        ":image" => $image,
+      ]);
 
 
 
