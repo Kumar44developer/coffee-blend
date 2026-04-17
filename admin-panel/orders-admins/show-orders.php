@@ -48,7 +48,10 @@
                     <td><?php echo $booking->time; ?></td>
                     <td><?php echo $booking->phone; ?></td>
                     <td>
-
+                    <?php echo $booking->message; ?>
+                    </td>
+                    <td><?php echo $booking->status; ?></td>
+                    <td><a href="change-status.php?id=<?php echo $booking->id; ?>" class="btn btn-warning  text-white text-center ">cahnge status</a></td>
 
 
 
