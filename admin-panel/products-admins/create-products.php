@@ -56,7 +56,9 @@
                   <input type="text" name="name" id="form2Example1" class="form-control" placeholder="name" />
 
 
-
+                </div>
+                <div class="form-outline mb-4 mt-4">
+                  <input type="text" name="price" id="form2Example1" class="form-control" placeholder="price" />
 
 
 
