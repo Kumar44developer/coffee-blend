@@ -18,6 +18,11 @@
       $type = $_POST['type'];
       $image = $_FILES['image']['name'];
 
+      $dir = "images/" . basename($image);
+
+      $insert = $conn->prepare("INSERT INTO products (name, price, description, type,
+       image)
+      VALUES (:name, :price, :description, :type, :image)");
 
 
 
