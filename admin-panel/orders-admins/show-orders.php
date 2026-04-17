@@ -44,7 +44,10 @@
                     <th scope="row"><?php echo $booking->id; ?></th>
                     <td><?php echo $booking->first_name; ?></td>
                     <td><?php echo $booking->last_name; ?></td>
-
+                    <td><?php echo $booking->date; ?> </td>
+                    <td><?php echo $booking->time; ?></td>
+                    <td><?php echo $booking->phone; ?></td>
+                    <td>
 
 
 
