@@ -21,7 +21,14 @@
             <div class="card-body">
               <h5 class="card-title mb-4 d-inline">Bookings</h5>
 
-
+              
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">first_name</th>
+                    <th scope="col">last_name</th>
+                    <th scope="col">date</th>
 
 
 
