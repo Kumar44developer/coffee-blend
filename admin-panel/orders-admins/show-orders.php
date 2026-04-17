@@ -29,7 +29,10 @@
                     <th scope="col">first_name</th>
                     <th scope="col">last_name</th>
                     <th scope="col">date</th>
-
+                    <th scope="col">time</th>
+                    <th scope="col">phone</th>
+                    <th scope="col">message</th>
+                    <th scope="col">status</th>
 
 
 
