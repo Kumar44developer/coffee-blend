@@ -7,7 +7,13 @@
     header("location: ".ADMINURL."/admins/login-admins.php");
   }
 
+  
+  $bookings = $conn->query("SELECT * FROM bookings");
+  $bookings->execute();
 
+  $allBookings = $bookings->fetchAll(PDO::FETCH_OBJ);
+
+?>
 
 
 
