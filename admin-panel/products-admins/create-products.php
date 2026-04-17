@@ -12,7 +12,11 @@
     OR empty($_POST['type'])) {
       echo "<script>alert('one or more inputs are empty');</script>";
     } else {
-
+      $name = $_POST['name'];
+      $price = $_POST['price'];
+      $description = $_POST['description'];
+      $type = $_POST['type'];
+      $image = $_FILES['image']['name'];
 
 
 
