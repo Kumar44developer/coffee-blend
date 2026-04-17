@@ -32,7 +32,16 @@
         ":image" => $image,
       ]);
 
+      if(move_uploaded_file($_FILES['image']['tmp_name'], $dir)) {
+        header("location: show-products.php");
 
+      }
+
+      
+      
+
+    }
+  }
 
 
 
