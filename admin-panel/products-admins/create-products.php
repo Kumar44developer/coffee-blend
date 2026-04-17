@@ -65,7 +65,11 @@
                   <input type="file" name="image" id="form2Example1" class="form-control"  />
 
 
-
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Description</label>
+                  <textarea name="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
 
 
 
