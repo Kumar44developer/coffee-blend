@@ -60,7 +60,9 @@
                 <div class="form-outline mb-4 mt-4">
                   <input type="text" name="price" id="form2Example1" class="form-control" placeholder="price" />
 
-
+                </div>
+                <div class="form-outline mb-4 mt-4">
+                  <input type="file" name="image" id="form2Example1" class="form-control"  />
 
 
 
