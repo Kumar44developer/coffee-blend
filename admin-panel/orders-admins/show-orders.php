@@ -39,7 +39,11 @@
                   </tr>
                 </thead>
                 <tbody>
-
+                  <?php foreach($allBookings as $booking) : ?>
+                  <tr>
+                    <th scope="row"><?php echo $booking->id; ?></th>
+                    <td><?php echo $booking->first_name; ?></td>
+                    <td><?php echo $booking->last_name; ?></td>
 
 
 
