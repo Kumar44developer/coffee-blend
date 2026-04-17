@@ -53,6 +53,11 @@
                     <td><?php echo $booking->status; ?></td>
                     <td><a href="change-status.php?id=<?php echo $booking->id; ?>" class="btn btn-warning  text-white text-center ">cahnge status</a></td>
 
+                    <td><?php echo $booking->created_at; ?></td>
+
+                     <td><a href="delete-bookings.php?id=<?php echo $booking->id; ?>" class="btn btn-danger  text-center ">delete</a></td>
+                  </tr>
+                  <?php endforeach; ?>
 
 
 
