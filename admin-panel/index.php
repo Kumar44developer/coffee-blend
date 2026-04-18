@@ -11,6 +11,15 @@
   $products->execute();
 
 
+  $productsCount = $products->fetch(PDO::FETCH_OBJ);
+
+
+    //orders
+  $orders = $conn->query("SELECT COUNT(*) AS count_orders FROM orders");
+  $orders->execute();
+  
+  $ordersCount = $orders->fetch(PDO::FETCH_OBJ);
+
 
 
 
