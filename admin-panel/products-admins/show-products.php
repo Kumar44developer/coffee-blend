@@ -33,7 +33,10 @@
                   </tr>
                 </thead>
                 <tbody>
-
+                  <?php foreach($allProducts as $product) : ?>
+                    <tr>
+                      <th scope="row"><?php echo $product->id; ?></th>
+                      <td><?php echo $product->name; ?></td>
 
 
 
