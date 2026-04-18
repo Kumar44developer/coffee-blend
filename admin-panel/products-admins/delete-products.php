@@ -10,7 +10,13 @@
 
         $id = $_GET['id'];
 
+        //delete the image
+        $select = $conn->query("SELECT * FROM products WHERE id='$id'");
+        $select->execute();
 
+        $image = $select->fetch(PDO::FETCH_OBJ);
+
+        unlink("images/".$image->image."");
 
 
 
