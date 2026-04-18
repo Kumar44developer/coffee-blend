@@ -6,7 +6,9 @@
         header("location: ".ADMINURL."/admins/login-admins.php");
     }
 
+    if(isset($_GET['id'])) {
 
+        $id = $_GET['id'];
 
 
 
