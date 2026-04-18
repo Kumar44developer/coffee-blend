@@ -42,7 +42,13 @@
                       <td><?php echo $product->type; ?></td>
                       <td><a href="delete-products.php?id=<?php echo $product->id; ?>" class="btn btn-danger  text-center ">delete</a></td>
                     </tr>
-
+                  <?php endforeach; ?>
+                </tbody>
+              </table> 
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
