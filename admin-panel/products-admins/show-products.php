@@ -28,7 +28,11 @@
                     <th scope="col">name</th>
                     <th scope="col">image</th>
                     <th scope="col">price</th>
-
+                    <th scope="col">type</th>
+                    <th scope="col">delete</th>
+                  </tr>
+                </thead>
+                <tbody>
 
 
 
