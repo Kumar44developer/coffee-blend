@@ -13,7 +13,10 @@
   $allProducts = $products->fetchAll(PDO::FETCH_OBJ);
 
 ?>
-
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
 
 
 
