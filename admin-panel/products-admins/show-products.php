@@ -37,7 +37,11 @@
                     <tr>
                       <th scope="row"><?php echo $product->id; ?></th>
                       <td><?php echo $product->name; ?></td>
-
+                      <td><img src="images/<?php echo $product->image; ?>" style="width: 60px; height: 60px"></td>
+                      <td>$<?php echo $product->price; ?></td>
+                      <td><?php echo $product->type; ?></td>
+                      <td><a href="delete-products.php?id=<?php echo $product->id; ?>" class="btn btn-danger  text-center ">delete</a></td>
+                    </tr>
 
 
 
