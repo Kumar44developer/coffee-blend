@@ -21,6 +21,13 @@
               <a  href="create-products.php" class="btn btn-primary mb-4 text-center float-right">Create Products</a>
 
 
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">name</th>
+                    <th scope="col">image</th>
+                    <th scope="col">price</th>
 
 
 
