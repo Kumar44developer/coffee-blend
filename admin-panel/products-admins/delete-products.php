@@ -18,7 +18,11 @@
 
         unlink("images/".$image->image."");
 
+        $delete = $conn->query("DELETE FROM products WHERE id='$id'");
+        $delete->execute();
 
+        header("location: show-products.php");
+    }
 
 
 
