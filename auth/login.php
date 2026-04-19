@@ -75,7 +75,10 @@
 	          	<div class="row align-items-end">
 	          		<div class="col-md-12">
 	                <div class="form-group">
-
+	                	<label for="Email">Email</label>
+	                  <input name="email" type="text" class="form-control" placeholder="Email">
+	                </div>
+	              </div>
 
 
 
