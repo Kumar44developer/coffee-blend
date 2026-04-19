@@ -95,7 +95,10 @@
 					</div>
                 </div>
 
-					  
+	          </form><!-- END -->
+          </div> <!-- .col-md-8 -->
+          </div>
+        </div>					  
 
 
 
