@@ -74,6 +74,12 @@
               
               <p class="card-text">number of admins: <?php echo $adminsCount->count_admins; ?></p>
 
+            </div>
+          </div>
+        </div>
+      </div>
+   
+<?php require "layouts/footer.php"; ?>    
 
 
 
