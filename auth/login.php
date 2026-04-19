@@ -28,6 +28,11 @@
         if(password_verify($password, $fetch['password'])) {
           //start session
 
+          $_SESSION['username'] = $fetch['username'];
+          $_SESSION['email'] = $fetch['email'];
+          $_SESSION['user_id'] = $fetch['id'];
+
+          header("location: ".APPURL."");
 
 
 
