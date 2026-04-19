@@ -99,7 +99,10 @@
           </div> <!-- .col-md-8 -->
           </div>
         </div>					  
+      </div>
+    </section> <!-- .section -->
 
+<?php require "../includes/footer.php"; ?>
 
 
 
