@@ -16,7 +16,12 @@
       $email = $_POST['email'];
       $password = $_POST['password'];
 
+      //write a query to check for email
 
+      $login = $conn->query("SELECT * FROM users WHERE email='$email'");
+      $login->execute();
+
+      $fetch = $login->fetch(PDO::FETCH_ASSOC);
 
 
 
