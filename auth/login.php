@@ -80,6 +80,11 @@
 	                </div>
 	              </div>
 
+	              <div class="col-md-12">
+	                <div class="form-group">
+	                	<label for="Password">Password</label>
+	                    <input name="password" type="password" class="form-control" placeholder="Password">
+	                </div>
 
 
 
