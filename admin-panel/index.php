@@ -27,6 +27,14 @@
   $bookingsCount = $bookings->fetch(PDO::FETCH_OBJ);
 
 
+    //admins
+    $admins = $conn->query("SELECT COUNT(*) AS count_admins FROM admins");
+    $admins->execute();
+  
+    $adminsCount = $admins->fetch(PDO::FETCH_OBJ);
+
+
+?>
 
 
 
