@@ -69,7 +69,10 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-
+            <div class="card-body">
+              <h5 class="card-title">Admins</h5>
+              
+              <p class="card-text">number of admins: <?php echo $adminsCount->count_admins; ?></p>
 
 
 
