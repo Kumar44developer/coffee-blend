@@ -54,7 +54,11 @@
               
               <p class="card-text">number of orders: <?php echo $ordersCount->count_orders; ?></p>
 
-
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
 
 
 
