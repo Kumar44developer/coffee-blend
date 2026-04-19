@@ -20,7 +20,11 @@
   
   $ordersCount = $orders->fetch(PDO::FETCH_OBJ);
 
+      //bookings
+  $bookings = $conn->query("SELECT COUNT(*) AS count_bookings FROM bookings");
+  $bookings->execute();
 
+  $bookingsCount = $bookings->fetch(PDO::FETCH_OBJ);
 
 
 
