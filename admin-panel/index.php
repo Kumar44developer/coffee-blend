@@ -64,7 +64,11 @@
               
               <p class="card-text">number of bookings: <?php echo $bookingsCount->count_bookings; ?></p>
 
-
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
 
 
 
