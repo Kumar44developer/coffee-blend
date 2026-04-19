@@ -34,7 +34,10 @@
 
           header("location: ".APPURL."");
 
+        } else {
+          echo "<script>alert('email of password is wrong');</script>";
 
+        }
 
 
 
