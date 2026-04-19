@@ -59,7 +59,10 @@
         </div>
         <div class="col-md-3">
           <div class="card">
-
+            <div class="card-body">
+              <h5 class="card-title">Bookings</h5>
+              
+              <p class="card-text">number of bookings: <?php echo $bookingsCount->count_bookings; ?></p>
 
 
 
