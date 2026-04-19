@@ -70,7 +70,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 ftco-animate">
-
+			<form action="login.php" method="POST" class="billing-form ftco-bg-dark p-3 p-md-5">
+				<h3 class="mb-4 billing-heading">Login</h3>
+	          	<div class="row align-items-end">
+	          		<div class="col-md-12">
+	                <div class="form-group">
 
 
 
