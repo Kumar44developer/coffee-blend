@@ -50,6 +50,9 @@
         <div class="col-md-3">
           <div class="card">
             <div class="card-body">
+              <h5 class="card-title">Orders</h5>
+              
+              <p class="card-text">number of orders: <?php echo $ordersCount->count_orders; ?></p>
 
 
 
