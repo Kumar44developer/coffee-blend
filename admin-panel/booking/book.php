@@ -36,7 +36,17 @@ if(isset($_POST['submit'])) {
                 ":user_id" => $user_id
             ]);
 
+            header("location: ".APPURL."");
 
+
+        } else {
+
+            header("location: ".APPURL."");
+        }
+
+
+    }
+}
 
 
 
