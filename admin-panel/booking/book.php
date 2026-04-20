@@ -11,3 +11,10 @@ if(isset($_POST['submit'])) {
     } else { 
 
 
+        $first_name = $_POST['first_name'];
+        $last_name = $_POST['last_name'];
+        $date = $_POST['date'];
+        $time = $_POST['time'];
+        $phone = $_POST['phone'];
+        $message = $_POST['message'];
+        $user_id = $_SESSION['user_id'];
