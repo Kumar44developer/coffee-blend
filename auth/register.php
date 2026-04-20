@@ -76,3 +76,10 @@
 	                  <input type="text" name="email" class="form-control" placeholder="Email">
 	                </div>
 	              </div>
+
+
+	              <div class="col-md-12">
+	                <div class="form-group">
+	                	<label for="Password">Password</label>
+	                    <input type="password" name="password" class="form-control" placeholder="Password">
+	                </div>
