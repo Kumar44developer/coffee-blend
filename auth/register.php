@@ -16,3 +16,25 @@
       $username = $_POST['username'];
       $email = $_POST['email'];
       $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+
+
+
+      $insert = $conn->prepare("INSERT INTO users (username, email, password)
+       VALUES (:username, :email, :password)");
+
+      $insert->execute([
+        ":username" => $username,
+        ":email" => $email,
+        ":password" => $password
+      ]);
+
+      header("location: login.php");
+      
+      
+
+    }
+  }
+
+
+?>
+    
