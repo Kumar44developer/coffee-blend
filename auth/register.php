@@ -70,3 +70,9 @@
                             <input type="text" name="username" class="form-control" placeholder="Username">
                         </div>
                  </div>
+	          	  <div class="col-md-12">
+	                <div class="form-group">
+	                	<label for="Email">Email</label>
+	                  <input type="text" name="email" class="form-control" placeholder="Email">
+	                </div>
+	              </div>
