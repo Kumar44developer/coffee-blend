@@ -26,7 +26,15 @@ if(isset($_POST['submit'])) {
             time, phone, message, user_id) VALUES (:first_name, :last_name, :date, :time,
             :phone, :message, :user_id)");
 
-
+            $insert->execute([
+                ":first_name" => $first_name,
+                ":last_name" => $last_name,
+                ":date" => $date,
+                ":time" => $time,
+                ":phone" => $phone,
+                ":message" => $message,
+                ":user_id" => $user_id
+            ]);
 
 
 
