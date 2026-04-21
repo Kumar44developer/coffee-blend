@@ -19,7 +19,12 @@ if(isset($_POST['submit'])) {
         $message = $_POST['message'];
         $user_id = $_SESSION['user_id'];
 
+        if($date > date("n/j/Y")) {
 
+
+            $insert = $conn->prepare("INSERT INTO bookings (first_name, last_name, date,
+            time, phone, message, user_id) VALUES (:first_name, :last_name, :date, :time,
+            :phone, :message, :user_id)");
 
 
 
