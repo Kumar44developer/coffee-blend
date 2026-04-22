@@ -242,3 +242,10 @@ html {
   -webkit-box-ordinal-group: 13;
   -ms-flex-order: 12;
   order: 12; }
+
+.offset-1 {
+  margin-left: 8.33333%; }
+
+.offset-2 {
+  margin-left: 16.66667%; }
+
