@@ -355,3 +355,7 @@ html {
     -webkit-box-ordinal-group: 0;
     -ms-flex-order: -1;
     order: -1; }
+  .order-sm-last {
+    -webkit-box-ordinal-group: 14;
+    -ms-flex-order: 13;
+    order: 13; }
