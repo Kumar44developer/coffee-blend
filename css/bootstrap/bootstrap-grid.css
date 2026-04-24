@@ -567,3 +567,7 @@ html {
     -webkit-box-ordinal-group: 12;
     -ms-flex-order: 11;
     order: 11; }
+  .order-md-12 {
+    -webkit-box-ordinal-group: 13;
+    -ms-flex-order: 12;
+    order: 12; }
