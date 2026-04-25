@@ -604,3 +604,9 @@ html {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%; }
+  .col-lg-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none; }
