@@ -730,3 +730,7 @@ html {
     -webkit-box-ordinal-group: 13;
     -ms-flex-order: 12;
     order: 12; }
+  .offset-lg-0 {
+    margin-left: 0; }
+  .offset-lg-1 {
+    margin-left: 8.33333%; }
