@@ -706,3 +706,7 @@ html {
     -webkit-box-ordinal-group: 7;
     -ms-flex-order: 6;
     order: 6; }
+  .order-lg-7 {
+    -webkit-box-ordinal-group: 8;
+    -ms-flex-order: 7;
+    order: 7; }
