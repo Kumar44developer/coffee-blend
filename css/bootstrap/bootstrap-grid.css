@@ -913,3 +913,22 @@ html {
     margin-left: 83.33333%; }
   .offset-xl-11 {
     margin-left: 91.66667%; } }
+
+
+
+
+.d-none {
+  display: none !important; }
+
+.d-inline {
+  display: inline !important; }
+
+.d-inline-block {
+  display: inline-block !important; }
+
+
+
+
+
+
+
