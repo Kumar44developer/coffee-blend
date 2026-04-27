@@ -1016,3 +1016,7 @@ html {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important; }
+  .d-lg-inline-flex {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important; } }
