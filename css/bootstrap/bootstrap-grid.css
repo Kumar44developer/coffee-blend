@@ -945,3 +945,7 @@ html {
   display: -ms-flexbox !important;
   display: flex !important; }
 
+.d-inline-flex {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important; }
