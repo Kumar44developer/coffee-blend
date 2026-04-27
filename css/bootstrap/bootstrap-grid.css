@@ -1032,3 +1032,7 @@ html {
     display: block !important; }
   .d-xl-table {
     display: table !important; }
+  .d-xl-table-row {
+    display: table-row !important; }
+  .d-xl-table-cell {
+    display: table-cell !important; }
