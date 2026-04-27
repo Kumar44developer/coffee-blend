@@ -1026,3 +1026,9 @@ html {
     display: none !important; }
   .d-xl-inline {
     display: inline !important; }
+  .d-xl-inline-block {
+    display: inline-block !important; }
+  .d-xl-block {
+    display: block !important; }
+  .d-xl-table {
+    display: table !important; }
