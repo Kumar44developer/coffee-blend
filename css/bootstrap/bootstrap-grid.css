@@ -963,3 +963,9 @@ html {
     display: table !important; }
   .d-sm-table-row {
     display: table-row !important; }
+  .d-sm-table-cell {
+    display: table-cell !important; }
+  .d-sm-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
