@@ -940,4 +940,8 @@ html {
 .d-table-cell {
   display: table-cell !important; }
 
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
 
