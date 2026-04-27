@@ -1010,3 +1010,9 @@ html {
     display: table !important; }
   .d-lg-table-row {
     display: table-row !important; }
+  .d-lg-table-cell {
+    display: table-cell !important; }
+  .d-lg-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; }
