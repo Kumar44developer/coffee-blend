@@ -933,6 +933,9 @@ html {
   display: table !important; }
 
 
+.d-table-row {
+  display: table-row !important; }
+
 
 
 
