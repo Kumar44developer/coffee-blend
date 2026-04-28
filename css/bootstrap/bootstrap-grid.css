@@ -1156,3 +1156,8 @@ html {
 .justify-content-around {
   -ms-flex-pack: distribute !important;
   justify-content: space-around !important; }
+
+.align-items-start {
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important; }
