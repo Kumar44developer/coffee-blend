@@ -1171,3 +1171,8 @@ html {
   -webkit-box-align: center !important;
   -ms-flex-align: center !important;
   align-items: center !important; }
+
+.align-items-baseline {
+  -webkit-box-align: baseline !important;
+  -ms-flex-align: baseline !important;
+  align-items: baseline !important; }
