@@ -1051,3 +1051,9 @@ html {
     display: none !important; }
   .d-print-inline {
     display: inline !important; }
+  .d-print-inline-block {
+    display: inline-block !important; }
+  .d-print-block {
+    display: block !important; }
+  .d-print-table {
+    display: table !important; }
