@@ -1355,3 +1355,9 @@ html {
   .align-self-sm-end {
     -ms-flex-item-align: end !important;
     align-self: flex-end !important; }
+  .align-self-sm-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important; }
+  .align-self-sm-baseline {
+    -ms-flex-item-align: baseline !important;
+    align-self: baseline !important; }
