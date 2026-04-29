@@ -1335,3 +1335,10 @@ html {
   .align-content-sm-center {
     -ms-flex-line-pack: center !important;
     align-content: center !important; }
+
+  .align-content-sm-between {
+    -ms-flex-line-pack: justify !important;
+    align-content: space-between !important; }
+  .align-content-sm-around {
+    -ms-flex-line-pack: distribute !important;
+    align-content: space-around !important; }
