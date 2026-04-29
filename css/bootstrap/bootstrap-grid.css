@@ -1217,3 +1217,11 @@ html {
 .align-self-end {
   -ms-flex-item-align: end !important;
   align-self: flex-end !important; }
+
+.align-self-center {
+  -ms-flex-item-align: center !important;
+  align-self: center !important; }
+
+.align-self-baseline {
+  -ms-flex-item-align: baseline !important;
+  align-self: baseline !important; }
