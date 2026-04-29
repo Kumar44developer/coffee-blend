@@ -1195,3 +1195,11 @@ html {
 .align-content-center {
   -ms-flex-line-pack: center !important;
   align-content: center !important; }
+
+.align-content-between {
+  -ms-flex-line-pack: justify !important;
+  align-content: space-between !important; }
+
+.align-content-around {
+  -ms-flex-line-pack: distribute !important;
+  align-content: space-around !important; }
