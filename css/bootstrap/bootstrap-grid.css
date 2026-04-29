@@ -1342,3 +1342,9 @@ html {
   .align-content-sm-around {
     -ms-flex-line-pack: distribute !important;
     align-content: space-around !important; }
+  .align-content-sm-stretch {
+    -ms-flex-line-pack: stretch !important;
+    align-content: stretch !important; }
+  .align-self-sm-auto {
+    -ms-flex-item-align: auto !important;
+    align-self: auto !important; }
