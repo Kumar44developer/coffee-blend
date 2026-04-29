@@ -1434,3 +1434,11 @@ html {
   .justify-content-md-around {
     -ms-flex-pack: distribute !important;
     justify-content: space-around !important; }
+  .align-items-md-start {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important; }
+  .align-items-md-end {
+    -webkit-box-align: end !important;
+    -ms-flex-align: end !important;
+    align-items: flex-end !important; }
