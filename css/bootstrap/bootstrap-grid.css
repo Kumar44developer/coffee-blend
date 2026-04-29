@@ -1393,3 +1393,10 @@ html {
   .flex-md-nowrap {
     -ms-flex-wrap: nowrap !important;
     flex-wrap: nowrap !important; }
+  .flex-md-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important; }
+  .flex-md-fill {
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important; }
