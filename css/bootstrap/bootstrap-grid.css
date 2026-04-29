@@ -1203,3 +1203,10 @@ html {
 .align-content-around {
   -ms-flex-line-pack: distribute !important;
   align-content: space-around !important; }
+.align-content-stretch {
+  -ms-flex-line-pack: stretch !important;
+  align-content: stretch !important; }
+
+.align-self-auto {
+  -ms-flex-item-align: auto !important;
+  align-self: auto !important; }
