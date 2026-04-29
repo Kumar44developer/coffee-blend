@@ -1371,3 +1371,8 @@ html {
     -webkit-box-direction: normal !important;
     -ms-flex-direction: row !important;
     flex-direction: row !important; }
+  .flex-md-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important; }
