@@ -1364,3 +1364,10 @@ html {
   .align-self-sm-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important; } }
+
+@media (min-width: 768px) {
+  .flex-md-row {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important; }
