@@ -1348,3 +1348,10 @@ html {
   .align-self-sm-auto {
     -ms-flex-item-align: auto !important;
     align-self: auto !important; }
+
+  .align-self-sm-start {
+    -ms-flex-item-align: start !important;
+    align-self: flex-start !important; }
+  .align-self-sm-end {
+    -ms-flex-item-align: end !important;
+    align-self: flex-end !important; }
