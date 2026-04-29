@@ -1458,3 +1458,9 @@ html {
   .align-content-md-start {
     -ms-flex-line-pack: start !important;
     align-content: flex-start !important; }
+  .align-content-md-end {
+    -ms-flex-line-pack: end !important;
+    align-content: flex-end !important; }
+  .align-content-md-center {
+    -ms-flex-line-pack: center !important;
+    align-content: center !important; }
