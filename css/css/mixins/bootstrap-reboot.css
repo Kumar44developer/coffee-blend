@@ -265,3 +265,17 @@ progress {
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button; }
+
+output {
+  display: inline-block; }
+
+summary {
+  display: list-item;
+  cursor: pointer; }
+
+template {
+  display: none; }
+
+[hidden] {
+  display: none !important; }
+
