@@ -81,3 +81,17 @@ dt {
 dd {
   margin-bottom: .5rem;
   margin-left: 0; }
+
+
+blockquote {
+  margin: 0 0 1rem; }
+
+dfn {
+  font-style: italic; }
+
+b,
+strong {
+  font-weight: bolder; }
+
+small {
+  font-size: 80%; }
