@@ -127,3 +127,16 @@ a:not([href]):not([tabindex]) {
     text-decoration: none; }
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
+
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar; }
