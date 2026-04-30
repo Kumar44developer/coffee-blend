@@ -150,3 +150,14 @@ img {
 
 svg:not(:root) {
   overflow: hidden; }
+
+
+table {
+  border-collapse: collapse; }
+
+caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #6c757d;
+  text-align: left;
+  caption-side: bottom; }
