@@ -1464,3 +1464,8 @@ html {
   .align-content-md-center {
     -ms-flex-line-pack: center !important;
     align-content: center !important; }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
