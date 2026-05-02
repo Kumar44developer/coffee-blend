@@ -1496,3 +1496,15 @@ html {
     transform: scale3d(1, 1, 1);
   }
 }
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
