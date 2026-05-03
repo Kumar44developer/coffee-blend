@@ -819,3 +819,14 @@ Copyright (c) 2015 Daniel Eden
     transform: translate3d(0, 0, 0);
   }
 }
+
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+
+@-webkit-keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(.9, .9, .9);
+    transform: scale3d(.9, .9, .9);
+  }
