@@ -1210,3 +1210,8 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
+
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
