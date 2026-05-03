@@ -905,3 +905,16 @@ Copyright (c) 2015 Daniel Eden
     transform: translate3d(0, 2000px, 0);
   }
 }
+
+
+.bounceOutDown {
+  -webkit-animation-name: bounceOutDown;
+  animation-name: bounceOutDown;
+}
+
+@-webkit-keyframes bounceOutLeft {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0);
+  }
