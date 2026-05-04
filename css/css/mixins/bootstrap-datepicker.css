@@ -184,3 +184,19 @@
 .datepicker table tr td.today.disabled:hover.active {
   background-color: #fbf069 \9;
 }
+
+.datepicker table tr td.today:hover:hover {
+  color: #000;
+}
+.datepicker table tr td.today.active:hover {
+  color: #fff;
+}
+.datepicker table tr td.range,
+.datepicker table tr td.range:hover,
+.datepicker table tr td.range.disabled,
+.datepicker table tr td.range.disabled:hover {
+  background: #eeeeee;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
