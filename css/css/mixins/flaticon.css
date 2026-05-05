@@ -20,3 +20,11 @@
     src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
   }
 }
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
