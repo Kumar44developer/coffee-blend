@@ -212,3 +212,11 @@ button::-moz-focus-inner {
   .mfp-arrow-left:before {
     margin-left: 25px;
     border-right: 27px solid #3F3F3F; }
+
+.mfp-arrow-right {
+  right: 0; }
+  .mfp-arrow-right:after {
+    border-left: 17px solid #FFF;
+    margin-left: 39px; }
+  .mfp-arrow-right:before {
+    border-left: 27px solid #3F3F3F; }
