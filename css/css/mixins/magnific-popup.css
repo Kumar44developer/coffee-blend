@@ -156,3 +156,12 @@ button::-moz-focus-inner {
   text-align: right;
   padding-right: 6px;
   width: 100%; }   
+
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #CCC;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap; }
