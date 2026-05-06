@@ -295,3 +295,10 @@ mfp-title {
   color: #F3F3F3;
   word-wrap: break-word;
   padding-right: 36px; }
+
+
+.mfp-image-holder .mfp-content {
+  max-width: 100%; }
+
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer; }
