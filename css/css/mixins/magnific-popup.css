@@ -280,3 +280,12 @@ img.mfp-img {
     line-height: 14px; }
   .mfp-figure figure {
     margin: 0; }
+
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto; }
+
