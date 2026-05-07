@@ -44,3 +44,11 @@
 	          <li class="nav-item"><a href="<?php echo APPURL;?>/menu.php" class="nav-link">Menu</a></li>
 	          <li class="nav-item"><a href="<?php echo APPURL;?>/services.php" class="nav-link">Services</a></li>
 	          <li class="nav-item"><a href="<?php echo APPURL;?>/about.php" class="nav-link">About</a></li>
+
+					          <li class="nav-item"><a href="<?php echo APPURL;?>/contact.php" class="nav-link">Contact</a></li>
+              <?php if(isset($_SESSION['username'])) : ?>
+                <li class="nav-item cart"><a href="<?php echo APPURL; ?>/products/cart.php" class="nav-link"><span class="icon icon-shopping_cart"></span></a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <?php echo $_SESSION['username']; ?>
+                    </a>
