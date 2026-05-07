@@ -38,3 +38,9 @@
 	      </button>
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/jquery.timepicker.css">
+				      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="<?php echo APPURL; ?>" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="<?php echo APPURL;?>/menu.php" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="<?php echo APPURL;?>/services.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="<?php echo APPURL;?>/about.php" class="nav-link">About</a></li>
