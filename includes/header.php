@@ -60,6 +60,15 @@
                         <li><a class="dropdown-item" href="<?php echo APPURL; ?>/auth/logout.php">Logout</a></li>
                     </ul>
                 </li>
+              <?php else: ?>
+                <li class="nav-item"><a href="<?php echo APPURL; ?>/auth/login.php" class="nav-link">login</a></li>
+                <li class="nav-item"><a href="<?php echo APPURL; ?>/auth/register.php" class="nav-link">register</a></li>
+              <?php endif; ?>
 
+	        </ul>
+	      </div>
+		</div>
+	  </nav>
+    <!-- END nav -->
 
 					
