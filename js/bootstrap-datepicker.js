@@ -114,3 +114,36 @@
 			this.show();
 		}
 	};
+
+ 
+	Datepicker.prototype = {
+		constructor: Datepicker,
+
+		_process_options: function(opts){
+			// Store raw options for reference
+			this._o = $.extend({}, this._o, opts);
+			// Processed options
+			var o = this.o = $.extend({}, this._o);
+
+			// Check if "de-DE" style date is available, if not language should
+			// fallback to 2 letter code eg "de"
+			var lang = o.language;
+			if (!dates[lang]){
+				lang = lang.split('-')[0];
+				if (!dates[lang])
+					lang = defaults.language;
+			}
+			o.language = lang;
+
+			switch (o.startView){
+				case 2:
+				case 'decade':
+					o.startView = 2;
+					break;
+				case 1:
+				case 'year':
+					o.startView = 1;
+					break;
+				default:
+					o.startView = 0;
+			}
