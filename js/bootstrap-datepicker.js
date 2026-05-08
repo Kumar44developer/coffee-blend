@@ -49,3 +49,12 @@
 				return a;
 			}
 		};
+
+
+				return function(){
+			var a = [];
+			a.push.apply(a, arguments);
+			$.extend(a, extras);
+			return a;
+		};
+	})();
