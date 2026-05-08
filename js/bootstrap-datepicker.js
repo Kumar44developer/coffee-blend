@@ -414,7 +414,16 @@
 				this.setValue();
 			this._trigger('hide');
 		},
-
+		remove: function(){
+			this.hide();
+			this._detachEvents();
+			this._detachSecondaryEvents();
+			this.picker.remove();
+			delete this.element.data().datepicker;
+			if (!this.isInput){
+				delete this.element.data().date;
+			}
+		},
 
 
 		
