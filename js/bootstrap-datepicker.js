@@ -511,3 +511,12 @@
 			this.update();
 			this.updateNavArrows();
 		},
+		place: function(){
+			if (this.isInline)
+				return;
+			var calendarWidth = this.picker.outerWidth(),
+				calendarHeight = this.picker.outerHeight(),
+				visualPadding = 10,
+				windowWidth = $window.width(),
+				windowHeight = $window.height(),
+				scrollTop = $window.scrollTop();
