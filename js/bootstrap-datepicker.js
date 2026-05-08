@@ -227,3 +227,15 @@
 						break;
 				}
 			}
+			else {
+				_plc = $.grep(plc, function(word){
+					return (/^left|right$/).test(word);
+				});
+				o.orientation.x = _plc[0] || 'auto';
+
+				_plc = $.grep(plc, function(word){
+					return (/^top|bottom$/).test(word);
+				});
+				o.orientation.y = _plc[0] || 'auto';
+			}
+		},
