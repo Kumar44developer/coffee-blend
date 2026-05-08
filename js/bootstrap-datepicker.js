@@ -499,3 +499,9 @@
 			this.update();
 			this.updateNavArrows();
 		},
+
+		setEndDate: function(endDate){
+			this._process_options({endDate: endDate});
+			this.update();
+			this.updateNavArrows();
+		},
