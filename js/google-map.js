@@ -9,3 +9,10 @@ function init() {
     // 39.399872
     // -8.224454
     
+    
+    var mapOptions = {
+        // How zoomed in you want the map to start at (always required)
+        zoom: 7,
+
+        // The latitude and longitude to center the map (always required)
+        center: myLatlng,
