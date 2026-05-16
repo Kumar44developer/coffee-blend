@@ -143,3 +143,10 @@
 				if ( navbar.hasClass('scrolled') ) {
 					navbar.removeClass('scrolled sleep');
 				}
+
+
+			} 
+			if ( st > 350 ) {
+				if ( !navbar.hasClass('awake') ) {
+					navbar.addClass('awake');	
+				}
