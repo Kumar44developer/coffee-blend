@@ -6,3 +6,16 @@
   var
     rangeS = parent.querySelectorAll("input[type=range]"),
     numberS = parent.querySelectorAll("input[type=number]");
+
+ 
+  rangeS.forEach(function(el) {
+    el.oninput = function() {
+      var slide1 = parseFloat(rangeS[0].value),
+        	slide2 = parseFloat(rangeS[1].value);
+
+      if (slide1 > slide2) {
+				[slide1, slide2] = [slide2, slide1];
+        // var tmp = slide2;
+        // slide2 = slide1;
+        // slide1 = tmp;
+      }
