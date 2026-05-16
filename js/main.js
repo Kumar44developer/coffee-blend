@@ -118,3 +118,8 @@
 			$this.find('.dropdown-menu').removeClass('show');
 		// }, 100);
 	});
+
+
+	$('#dropdown04').on('show.bs.dropdown', function () {
+	  console.log('show');
+	});
