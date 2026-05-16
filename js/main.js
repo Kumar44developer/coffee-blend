@@ -150,3 +150,8 @@
 				if ( !navbar.hasClass('awake') ) {
 					navbar.addClass('awake');	
 				}
+
+				
+				if(sd.length > 0) {
+					sd.addClass('sleep');
+				}
