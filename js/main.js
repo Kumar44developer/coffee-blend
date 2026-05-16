@@ -18,3 +18,17 @@
     horizontalOffset: 0,
 	  verticalOffset: 0
   });
+
+  // Scrollax
+  $.Scrollax();
+
+
+	var fullHeight = function() {
+
+		$('.js-fullheight').css('height', $(window).height());
+		$(window).resize(function(){
+			$('.js-fullheight').css('height', $(window).height());
+		});
+
+	};
+	fullHeight();
