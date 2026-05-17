@@ -48,3 +48,20 @@
         </div>
       </div>
     </section>
+
+	<section class="ftco-section ftco-cart">
+			<div class="container">
+				<div class="row">
+    			<div class="col-md-12 ftco-animate">
+    				<div class="cart-list">
+						<?php if(count($allProducts) > 0) : ?>
+	    				<table class="table">
+						    <thead class="thead-primary">
+						      <tr class="text-center">
+						        <th>&nbsp;</th>
+						        <th>&nbsp;</th>
+						        <th>Product</th>
+						        <th>Price</th>
+						        <th>Quantity</th>
+						        <th>Total</th>
+						      </tr>
