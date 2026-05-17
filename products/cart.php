@@ -78,3 +78,12 @@
 						        	<h3><?php echo $product->name; ?></h3>
 						        	<p><?php echo $product->description; ?></p>
 						        </td>
+
+
+						        <td class="price">$<?php echo $product->price; ?></td>
+						        
+						        <td>
+									<div class="input-group mb-3">
+										<input disabled type="text" name="quantity" class="quantity form-control input-number" value="<?php echo $product->quantity; ?>" min="1" max="100">
+									 </div>
+					            </td>
