@@ -111,3 +111,7 @@
     						<span>Subtotal</span>
     						<span>$<?php echo $allCartTotal->total; ?></span>
     					</p>
+    					<p class="d-flex">
+    						<span>Delivery</span>
+    						<span>$10.00</span>
+    					</p>
