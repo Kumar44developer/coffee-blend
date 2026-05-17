@@ -53,3 +53,8 @@
 				":status" => $status,
 				":total_price" => $total_price,
 			]);
+
+			header("location: pay.php");
+
+		}
+	}
