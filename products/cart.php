@@ -115,3 +115,7 @@
     						<span>Delivery</span>
     						<span>$10.00</span>
     					</p>
+    					<p class="d-flex">
+    						<span>Discount</span>
+    						<span>$3.00</span>
+    					</p>
