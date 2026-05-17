@@ -1,3 +1,12 @@
 <?php require "../includes/header.php"; ?>
 <?php require "../config/config.php"; ?>
 <?php 
+
+
+
+	if(!isset($_SERVER['HTTP_REFERER'])){
+		// redirect them to your desired location
+		header('location: http://localhost/coffee-blend');
+		exit;
+	}
+
