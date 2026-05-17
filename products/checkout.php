@@ -22,4 +22,15 @@
 		 OR empty($_POST['street_address']) OR empty($_POST['town']) OR empty($_POST['zip_code'])
 		 OR empty($_POST['phone']) OR empty($_POST['email'])) {
 			echo "<script>alert('one or more inputs are empty');</script>";
+		} else {
 
+			$first_name = $_POST['first_name'];
+			$last_name = $_POST['last_name'];
+			$state = $_POST['state'];
+			$street_address = $_POST['street_address'];
+			$town = $_POST['town'];
+			$zip_code = $_POST['zip_code'];
+			$phone = $_POST['phone'];
+			$user_id = $_SESSION['user_id'];
+			$status = "Pending";
+			$total_price = $_SESSION['total_price'];
