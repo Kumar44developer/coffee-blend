@@ -34,3 +34,8 @@
 			$user_id = $_SESSION['user_id'];
 			$status = "Pending";
 			$total_price = $_SESSION['total_price'];
+
+
+			$place_orders = $conn->prepare("INSERT INTO orders (first_name, last_name, state, street_address,
+			town, zip_code, phone, user_id, status, total_price) VALUES (:first_name, :last_name,
+			:state, :street_address, :town, :zip_code, :phone, :user_id, :status, :total_price)");
