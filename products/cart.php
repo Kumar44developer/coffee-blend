@@ -18,3 +18,16 @@
 	$cartTotal->execute();
 
 	$allCartTotal = $cartTotal->fetch(PDO::FETCH_OBJ);
+
+
+
+	//procced to checkout
+
+	if(isset($_POST['checkout'])) {
+
+		$_SESSION['total_price'] = $_POST['total_price'];
+
+		header("location: checkout.php");
+	}
+
+?>
