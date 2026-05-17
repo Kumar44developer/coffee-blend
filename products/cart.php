@@ -87,3 +87,8 @@
 										<input disabled type="text" name="quantity" class="quantity form-control input-number" value="<?php echo $product->quantity; ?>" min="1" max="100">
 									 </div>
 					            </td>
+
+
+						        <td class="total">$<?php echo $product->price * $product->quantity; ?></td>
+						      </tr>
+							<?php endforeach; ?>	
