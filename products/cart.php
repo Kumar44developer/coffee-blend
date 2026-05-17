@@ -119,3 +119,11 @@
     						<span>Discount</span>
     						<span>$3.00</span>
     					</p>
+    					<hr>
+    					<p class="d-flex total-price">
+    						<span>Total</span>
+							<?php if($allCartTotal->total > 0) : ?>
+    							<span>$<?php echo $allCartTotal->total + 10 - 3; ?></span>
+							<?php endif; ?>
+    					</p>
+    				</div>
