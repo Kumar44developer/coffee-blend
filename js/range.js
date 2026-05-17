@@ -23,3 +23,10 @@
       numberS[1].value = slide2;
     }
   });
+
+
+  numberS.forEach(function(el) {
+    el.oninput = function() {
+			var number1 = parseFloat(numberS[0].value),
+					number2 = parseFloat(numberS[1].value);
+			
