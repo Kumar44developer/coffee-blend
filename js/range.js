@@ -36,3 +36,12 @@
         numberS[0].value = number2;
         numberS[1].value = tmp;
       }
+
+
+      rangeS[0].value = number1;
+      rangeS[1].value = number2;
+
+    }
+  });
+
+})();
