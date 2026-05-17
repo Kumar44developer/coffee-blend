@@ -92,3 +92,14 @@
 						        <td class="total">$<?php echo $product->price * $product->quantity; ?></td>
 						      </tr>
 							<?php endforeach; ?>	
+
+
+
+						    </tbody>
+						</table>
+						  <?php else : ?>
+							<p>your cart is empty, add products </p>
+						  <?php endif; ?>	
+					  </div>
+    			</div>
+    		</div>
