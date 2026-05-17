@@ -19,3 +19,7 @@
         // slide2 = slide1;
         // slide1 = tmp;
       }
+      numberS[0].value = slide1;
+      numberS[1].value = slide2;
+    }
+  });
