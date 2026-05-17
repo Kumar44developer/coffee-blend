@@ -39,3 +39,17 @@
 			$place_orders = $conn->prepare("INSERT INTO orders (first_name, last_name, state, street_address,
 			town, zip_code, phone, user_id, status, total_price) VALUES (:first_name, :last_name,
 			:state, :street_address, :town, :zip_code, :phone, :user_id, :status, :total_price)");
+
+
+			$place_orders->execute([
+				":first_name" => $first_name,
+				":last_name" => $last_name,
+				":state" => $state,
+				":street_address" => $street_address,
+				":town" => $town,
+				":zip_code" => $zip_code,
+				":phone" => $phone,
+				":user_id" => $user_id,
+				":status" => $status,
+				":total_price" => $total_price,
+			]);
