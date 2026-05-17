@@ -65,3 +65,11 @@
 						        <th>Quantity</th>
 						        <th>Total</th>
 						      </tr>
+    </thead>
+						    <tbody>
+								<?php foreach($allProducts as $product) : ?>
+						      <tr class="text-center">
+						        <td class="product-remove"><a href="delete-product.php?id=<?php echo $product->id; ?>"><span class="icon-close"></span></a></td>
+						        
+						        <td class="image-prod"><div class="img" style="background-image:url(<?php echo IMAGEPRODUCTS; ?>/<?php echo $product->image; ?>);"></div></td>
+						        
