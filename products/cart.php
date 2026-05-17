@@ -127,3 +127,13 @@
 							<?php endif; ?>
     					</p>
     				</div>
+					<form method="POST" action="cart.php">
+						<input type="hidden" name="total_price" value="<?php echo $allCartTotal->total + 10 - 3; ?>">
+						<?php if($allCartTotal->total > 0) : ?>	
+							<button style="    background-color: black;" name="checkout" type="submit" class="btn btn-primary py-3 px-5">Proceed to Checkout</button>
+						<?php endif; ?>
+					</form>
+				  </div>
+    			</div>
+    		</div>
+	</section>
