@@ -138,3 +138,7 @@
 		            <div class="w-100"></div>
 		            <div class="col-md-12">
 	                <div class="form-group">
+	                	<label for="phone">Phone</label>
+	                  <input name="phone" type="text" class="form-control" placeholder="">
+	                </div>
+	              </div>
