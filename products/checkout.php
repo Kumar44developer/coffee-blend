@@ -142,3 +142,9 @@
 	                  <input name="phone" type="text" class="form-control" placeholder="">
 	                </div>
 	              </div>
+	              <div class="col-md-12">
+	                <div class="form-group">
+	                	<label for="emailaddress">Email Address</label>
+	                  <input name="email" type="text" class="form-control" placeholder="">
+	                </div>
+                </div>
