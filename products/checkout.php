@@ -112,3 +112,10 @@
 		                </div>
 		            	</div>
 		            </div>
+		            <div class="w-100"></div>
+		            <div class="col-md-12">
+		            	<div class="form-group">
+	                	<label for="streetaddress">Street Address</label>
+	                  <input name="street_address" type="text" class="form-control" placeholder="House number and street name">
+	                </div>
+		            </div>
