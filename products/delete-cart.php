@@ -8,3 +8,8 @@
         header('location: http://localhost/coffee-blend');
         exit;
     }
+
+
+    if(!isset($_SESSION['user_id'])) {
+        header("location: ".APPURL."");
+    }
