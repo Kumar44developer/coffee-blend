@@ -89,3 +89,9 @@
 	                  <input name="first_name" type="text" class="form-control" placeholder="">
 	                </div>
 	              </div>
+	              <div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="lastname">Last Name</label>
+	                  <input name="last_name" type="text" class="form-control" placeholder="">
+	                </div>
+                </div>
