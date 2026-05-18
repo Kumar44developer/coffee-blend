@@ -153,3 +153,8 @@
                 	<div class="form-group mt-4">
 					<div class="radio">
                       <p><button type="submit" name="submit" class="btn btn-primary py-3 px-4">Place an order an pay</button></p>
+						</div>
+					</div>
+                </div>
+	            </div>
+	          </form><!-- END -->
