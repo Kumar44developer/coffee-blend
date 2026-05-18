@@ -10,3 +10,11 @@
     if(isset($_GET['id'])) {
 
         $id = $_GET['id'];
+
+
+
+        $delete = $conn->query("DELETE FROM cart WHERE id='$id'");
+        $delete->execute();
+
+        header("location: cart.php");
+    }
