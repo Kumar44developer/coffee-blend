@@ -95,3 +95,8 @@
 	                  <input name="last_name" type="text" class="form-control" placeholder="">
 	                </div>
                 </div>
+                <div class="w-100"></div>
+		            <div class="col-md-12">
+		            	<div class="form-group">
+		            		<label for="country">State / Country</label>
+		            		<div class="select-wrap">
