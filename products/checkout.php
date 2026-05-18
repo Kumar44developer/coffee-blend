@@ -83,3 +83,9 @@
 			<form action="checkout.php" method="POST" class="billing-form ftco-bg-dark p-3 p-md-5">
 				<h3 class="mb-4 billing-heading">Billing Details</h3>
 	          	<div class="row align-items-end">
+	          		<div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="firstname">Firt Name</label>
+	                  <input name="first_name" type="text" class="form-control" placeholder="">
+	                </div>
+	              </div>
