@@ -148,3 +148,8 @@
 	                  <input name="email" type="text" class="form-control" placeholder="">
 	                </div>
                 </div>
+                <div class="w-100"></div>
+                <div class="col-md-12">
+                	<div class="form-group mt-4">
+					<div class="radio">
+                      <p><button type="submit" name="submit" class="btn btn-primary py-3 px-4">Place an order an pay</button></p>
