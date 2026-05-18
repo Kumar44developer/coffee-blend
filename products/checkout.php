@@ -100,3 +100,15 @@
 		            	<div class="form-group">
 		            		<label for="country">State / Country</label>
 		            		<div class="select-wrap">
+		                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+		                  <select name="state" id="" class="form-control">
+		                  	<option value="France">France</option>
+		                    <option value="Italy">Italy</option>
+		                    <option value="Philippines">Philippines</option>
+		                    <option value="South Korea">South Korea</option>
+		                    <option value="Hongkong">Hongkong</option>
+		                    <option value="Japan">Japan</option>
+		                  </select>
+		                </div>
+		            	</div>
+		            </div>
