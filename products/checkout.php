@@ -129,3 +129,9 @@
 	                  <input name="town" type="text" class="form-control" placeholder="">
 	                </div>
 		            </div>
+		            <div class="col-md-12">
+		            	<div class="form-group">
+		            		<label for="postcodezip">Postcode / ZIP *</label>
+	                  <input name="zip_code" type="text" class="form-control" placeholder="">
+	                </div>
+		            </div>
