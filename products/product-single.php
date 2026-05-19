@@ -90,3 +90,11 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-lg-6 mb-5 ftco-animate">
+    				<a href="h-50 images/menu-2.jpg" class="image-popup"><img src="<?php echo IMAGEPRODUCTS; ?>/<?php echo $singelProduct->image; ?>" class="img-fluid" alt="Colorlib Template"></a>
+    			</div>
+    			<div class="col-lg-6 product-details pl-md-5 ftco-animate">
+    				<h3><?php echo $singelProduct->name; ?></h3>
+    				<p class="price"><span>$<?php echo $singelProduct->price; ?></span></p>
+    				<p>
+					<?php echo $singelProduct->description; ?>
+					</p>
