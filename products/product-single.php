@@ -12,3 +12,12 @@
 		$product->execute();
 
 		$singelProduct = $product->fetch(PDO::FETCH_OBJ);
+
+
+		//data for relatedProducts
+		$relatedProducts = $conn->query("SELECT * FROM products WHERE type='$singelProduct->type'
+		AND id !='$singelProduct->id'");
+
+		$relatedProducts->execute();
+
+		$allRelatedProducts = $relatedProducts->fetchAll(PDO::FETCH_OBJ);
