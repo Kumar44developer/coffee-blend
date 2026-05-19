@@ -176,3 +176,10 @@
     					</div>
     				</div>
         	</div>
+			<?php endforeach; ?>
+        	
+        </div>
+    	</div>
+    </section>
+
+<?php require "../includes/footer.php"; ?>
