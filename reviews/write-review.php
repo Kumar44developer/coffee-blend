@@ -48,3 +48,8 @@
             	<h1 class="mb-3 mt-5 bread">Write Review</h1>
 	            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Write Review</span></p>
             </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
