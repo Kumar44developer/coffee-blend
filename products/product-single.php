@@ -131,3 +131,9 @@
 						</span>
 					</div>
 				</div>
+
+				<input name="name" value="<?php echo $singelProduct->name; ?>" type="hidden">
+				<input name="image" value="<?php echo $singelProduct->image; ?>" type="hidden">
+				<input name="price" value="<?php echo $singelProduct->price; ?>" type="hidden">
+				<input name="pro_id" value="<?php echo $singelProduct->id; ?>" type="hidden">
+				<input name="description" value="<?php echo $singelProduct->description; ?>" type="hidden">
