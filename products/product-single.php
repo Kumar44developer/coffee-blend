@@ -169,3 +169,10 @@
     					<div class="text text-center pt-4">
     						<h3><a href="<?php echo APPURL; ?>/products/product-single.php?id=<?php echo $allRelatedProduct->id; ?>"><?php echo $allRelatedProduct->name; ?></a></h3>
     						<p>
+							<?php echo $allRelatedProduct->description; ?>
+							</p>
+    						<p class="price"><span>$<?php echo $allRelatedProduct->price; ?></span></p>
+    						<p><a href="<?php echo APPURL; ?>/products/product-single.php?id=<?php echo $allRelatedProduct->id; ?>" class="btn btn-primary btn-outline-primary">show</a></p>
+    					</div>
+    				</div>
+        	</div>
