@@ -51,3 +51,12 @@
                                 }]
                                 });
                             },
+                            // Finalize the transaction after payer approval
+                            onApprove: (data, actions) => {
+                                return actions.order.capture().then(function(orderData) {
+                            
+                                window.location.href='delete-cart.php';
+                                });
+                            }
+                            }).render('#paypal-button-container');
+                        </script>
