@@ -60,3 +60,7 @@
                             }
                             }).render('#paypal-button-container');
                         </script>
+
+                    
+        </div>
+<?php require "../includes/footer.php"; ?>
