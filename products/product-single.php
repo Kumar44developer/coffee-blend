@@ -115,3 +115,10 @@
 								</div> -->
 		            		</div>
 							</div>
+							<div class="w-100"></div>
+							<div class="input-group col-md-6 d-flex mb-3">
+	             	<span class="input-group-btn mr-2">
+	                	<button type="button" class="quantity-left-minus btn"  data-type="minus" data-field="">
+	                   <i class="icon-minus"></i>
+	                	</button>
+	            		</span>
