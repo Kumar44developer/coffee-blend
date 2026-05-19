@@ -46,3 +46,7 @@
 				":quantity" => $quantity,
 				":user_id" => $user_id
 			]);
+
+
+			echo "<script>alert('added to cart successfully');</script>";
+		}
