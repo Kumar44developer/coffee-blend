@@ -98,3 +98,20 @@
     				<p>
 					<?php echo $singelProduct->description; ?>
 					</p>
+
+					<form method="POST" action="product-single.php?id=<?php echo $id; ?>">
+
+					<div class="row mt-4">
+							<div class="col-md-6">
+								<!-- <div class="form-group d-flex">
+									<div class="select-wrap">
+									<div class="icon"><span class="ion-ios-arrow-down"></span></div>
+									<select name="" id="" class="form-control">
+										<option value="">Small</option>
+										<option value="">Medium</option>
+										<option value="">Large</option>
+										<option value="">Extra Large</option>
+									</select>
+								</div> -->
+		            		</div>
+							</div>
