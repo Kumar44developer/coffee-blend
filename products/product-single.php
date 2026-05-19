@@ -60,3 +60,11 @@
 
 			$rowCount = $validateCart->rowCount();
 		}
+
+		
+	} else {
+		header("location: ".APPURL."/404.php");
+	}
+
+
+?>
