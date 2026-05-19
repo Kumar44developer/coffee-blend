@@ -80,3 +80,7 @@
             	<h1 class="mb-3 mt-5 bread">Product Detail</h1>
 	            <p class="breadcrumbs"><span class="mr-2"><a href="<?php echo APPURL; ?>">Home</a></span> <span>Product Detail</span></p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
