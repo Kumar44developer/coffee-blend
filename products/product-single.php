@@ -36,3 +36,13 @@
 
 			$insert_cart = $conn->prepare("INSERT INTO cart (name, image, price, pro_id, description,
 			quantity, user_id) VALUES (:name, :image, :price, :pro_id, :description, :quantity, :user_id)");
+
+			$insert_cart->execute([
+				":name" => $name,
+				":image" => $image,
+				":price" => $price,
+				":pro_id" => $pro_id,
+				":description" => $description,
+				":quantity" => $quantity,
+				":user_id" => $user_id
+			]);
