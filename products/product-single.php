@@ -147,3 +147,7 @@
 					<p style="margin-top: -335px; margin-left: 632px; height: 65px;">login to add product to cart</p>
 				<?php endif; ?>	
 			</form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
