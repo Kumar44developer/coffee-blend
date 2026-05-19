@@ -164,3 +164,8 @@
         <div class="row">
 			<?php foreach($allRelatedProducts as $allRelatedProduct) : ?>
         	<div class="col-md-3">
+        		<div class="menu-entry">
+    					<a href="<?php echo APPURL; ?>/products/product-single.php?id=<?php echo $allRelatedProduct->id; ?>" class="img" style="background-image: url(<?php echo IMAGEPRODUCTS; ?>/<?php echo $allRelatedProduct->image; ?>);"></a>
+    					<div class="text text-center pt-4">
+    						<h3><a href="<?php echo APPURL; ?>/products/product-single.php?id=<?php echo $allRelatedProduct->id; ?>"><?php echo $allRelatedProduct->name; ?></a></h3>
+    						<p>
