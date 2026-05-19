@@ -29,3 +29,25 @@
         </div>
     </div>
     </div>
+
+
+</section>
+
+
+<div class="container">  
+                        <!-- Replace "test" with your own sandbox Business account app client ID -->
+                        <script src="https://www.paypal.com/sdk/js?client-id=AaJGquy8uH3_xfS2pA9cZHFkrULQvWH63-5uS5rDC02WQi7447XNq9XniYmUHFq_Nqy2PRXMOcELogV9&currency=USD"></script>
+                        <!-- Set up a container element for the button -->
+                        <div style="margin-left: 200px; margin-top: -180px" id="paypal-button-container"></div>
+                        <script>
+                            paypal.Buttons({
+                            // Sets up the transaction when a payment button is clicked
+                            createOrder: (data, actions) => {
+                                return actions.order.create({
+                                purchase_units: [{
+                                    amount: {
+                                    value: '<?php echo $_SESSION['total_price']; ?>' // Can also reference a variable or function
+                                    }
+                                }]
+                                });
+                            },
