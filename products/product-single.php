@@ -32,3 +32,7 @@
 			$description = $_POST['description'];
 			$quantity = $_POST['quantity'];
 			$user_id = $_SESSION['user_id'];
+
+
+			$insert_cart = $conn->prepare("INSERT INTO cart (name, image, price, pro_id, description,
+			quantity, user_id) VALUES (:name, :image, :price, :pro_id, :description, :quantity, :user_id)");
