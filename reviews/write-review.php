@@ -21,3 +21,16 @@
 
 			$review = $_POST['review'];
             $username = $_SESSION['username'];
+
+			$writeReview = $conn->prepare("INSERT INTO reviews (review, username) VALUES (:review, :username)");
+
+			$writeReview->execute([
+				":review" => $review,
+				":username" => $username,
+				
+			]);
+
+			echo "<script>alert('review submitted');</script>";
+
+		}
+	}
