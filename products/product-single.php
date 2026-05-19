@@ -50,3 +50,13 @@
 
 			echo "<script>alert('added to cart successfully');</script>";
 		}
+
+
+		///validation for the cart
+		if(isset($_SESSION['user_id'])) {
+			$validateCart = $conn->query("SELECT * FROM cart WHERE pro_id='$id' AND
+			user_id='$_SESSION[user_id]'");
+			$validateCart->execute();
+
+			$rowCount = $validateCart->rowCount();
+		}
