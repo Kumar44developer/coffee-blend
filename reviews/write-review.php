@@ -65,3 +65,6 @@
 	          		<div class="col-md-12">
 	                <div class="form-group">
 	                	<label for="review">Review</label>
+	                  <input name="review" type="text" class="form-control" placeholder="write review">
+	                </div>
+	              </div>
