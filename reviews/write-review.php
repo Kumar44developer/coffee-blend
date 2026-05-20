@@ -68,3 +68,9 @@
 	                  <input name="review" type="text" class="form-control" placeholder="write review">
 	                </div>
 	              </div>
+
+
+                  <div class="col-md-12">
+                	<div class="form-group mt-4">
+					<div class="radio">
+                      <p><button type="submit" name="submit" class="btn btn-primary py-3 px-4">Submt review</button></p>
