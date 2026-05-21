@@ -69,3 +69,9 @@
     background-color: $active-background;
     border-color: $active-border;
   }
+
+ 
+  &:focus,
+  &.focus {
+    box-shadow: 0 0 0 $btn-focus-width rgba($color, .5);
+  } 
