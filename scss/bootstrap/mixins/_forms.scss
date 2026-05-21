@@ -47,3 +47,10 @@
         border-color: $color;
         box-shadow: 0 0 0 $input-focus-width rgba($color, .25);
       }
+
+      ~ .#{$state}-feedback,
+      ~ .#{$state}-tooltip {
+        display: block;
+      }
+    }
+  }
