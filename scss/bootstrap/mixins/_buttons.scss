@@ -24,3 +24,18 @@
       box-shadow: 0 0 0 $btn-focus-width rgba($border, .5);
     }
   }
+
+
+
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    color: color-yiq($background);
+    background-color: $background;
+    border-color: $border;
+  }
+
+
+
+  
