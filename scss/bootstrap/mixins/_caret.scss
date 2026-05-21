@@ -45,3 +45,8 @@
         @include caret-right;
       }
     }
+
+    @if $direction == left {
+      &::after {
+        display: none;
+      }
