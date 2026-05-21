@@ -4,3 +4,11 @@
   border-bottom: 0;
   border-left: $caret-width solid transparent;
 }
+
+
+@mixin caret-up {
+  border-top: 0;
+  border-right: $caret-width solid transparent;
+  border-bottom: $caret-width solid;
+  border-left: $caret-width solid transparent;
+}
