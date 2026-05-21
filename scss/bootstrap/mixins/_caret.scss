@@ -62,3 +62,9 @@
         @include caret-left;
       }
     }
+
+    &:empty::after {
+      margin-left: 0;
+    }
+  }
+}
