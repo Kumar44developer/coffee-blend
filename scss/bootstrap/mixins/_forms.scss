@@ -100,3 +100,11 @@
     &.is-#{$state} {
       ~ .custom-file-label {
         border-color: $color;
+
+        &::before { border-color: inherit; }
+      }
+
+      ~ .#{$state}-feedback,
+      ~ .#{$state}-tooltip {
+        display: block;
+      }
