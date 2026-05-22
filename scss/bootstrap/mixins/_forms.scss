@@ -63,3 +63,9 @@
       }
     }
   }
+
+  .custom-control-input {
+    .was-validated &:#{$state},
+    &.is-#{$state} {
+      ~ .custom-control-label {
+        color: $color;
