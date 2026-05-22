@@ -54,3 +54,12 @@
       }
     }
   }
+
+
+
+      ~ .#{$state}-feedback,
+      ~ .#{$state}-tooltip {
+        display: block;
+      }
+    }
+  }
