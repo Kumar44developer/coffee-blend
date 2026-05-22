@@ -93,3 +93,10 @@
       }
     }
   }
+
+  // custom file
+  .custom-file-input {
+    .was-validated &:#{$state},
+    &.is-#{$state} {
+      ~ .custom-file-label {
+        border-color: $color;
