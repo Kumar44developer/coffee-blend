@@ -108,3 +108,11 @@
       ~ .#{$state}-tooltip {
         display: block;
       }
+      &:focus {
+        ~ .custom-file-label {
+          box-shadow: 0 0 0 $input-focus-width rgba($color, .25);
+        }
+      }
+    }
+  }
+}
