@@ -80,3 +80,9 @@
       ~ .#{$state}-tooltip {
         display: block;
       }
+
+      &:checked {
+        ~ .custom-control-label::before {
+          @include gradient-bg(lighten($color, 10%));
+        }
+      }
