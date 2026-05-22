@@ -29,3 +29,8 @@
         flex-grow: 1;
         max-width: 100%;
       }
+      .col#{$infix}-auto {
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none; // Reset earlier grid tiers
+      }
