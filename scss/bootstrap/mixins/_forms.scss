@@ -69,3 +69,8 @@
     &.is-#{$state} {
       ~ .custom-control-label {
         color: $color;
+
+        &::before {
+          background-color: lighten($color, 25%);
+        }
+      }
