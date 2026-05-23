@@ -9,3 +9,12 @@
     @content;
   }
 }
+
+
+@mixin plain-hover-focus {
+  &,
+  &:hover,
+  &:focus {
+    @content;
+  }
+}
