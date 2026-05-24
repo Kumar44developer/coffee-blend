@@ -10,3 +10,10 @@
       background-color: $background;
     }
   }
+
+    .table-hover {
+    $hover-background: darken($background, 5%);
+
+    .table-#{$state} {
+      @include hover {
+        background-color: $hover-background;
