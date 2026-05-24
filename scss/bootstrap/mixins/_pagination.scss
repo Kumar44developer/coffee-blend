@@ -4,3 +4,17 @@
     font-size: $font-size;
     line-height: $line-height;
   }
+
+    .page-item {
+    &:first-child {
+      .page-link {
+        @include border-left-radius($border-radius);
+      }
+    }
+    &:last-child {
+      .page-link {
+        @include border-right-radius($border-radius);
+      }
+    }
+  }
+}
