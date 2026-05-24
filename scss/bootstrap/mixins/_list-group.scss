@@ -2,3 +2,9 @@
   .list-group-item-#{$state} {
     color: $color;
     background-color: $background;
+
+    &.list-group-item-action {
+      @include hover-focus {
+        color: $color;
+        background-color: darken($background, 5%);
+      }
