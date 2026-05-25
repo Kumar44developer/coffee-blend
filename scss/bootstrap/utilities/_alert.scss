@@ -16,3 +16,16 @@
 .alert-link {
   font-weight: $alert-link-font-weight;
 }
+
+.alert-dismissible {
+  padding-right: ($close-font-size + $alert-padding-x * 2);
+
+  // Adjust close link position
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: $alert-padding-y $alert-padding-x;
+    color: inherit;
+  }
+}
