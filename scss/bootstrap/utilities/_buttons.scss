@@ -103,3 +103,11 @@ fieldset:disabled a.btn {
     margin-top: $btn-block-spacing-y;
   }
 }
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.btn-block {
+    width: 100%;
+  }
+}
