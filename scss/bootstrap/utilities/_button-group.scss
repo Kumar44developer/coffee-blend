@@ -17,3 +17,11 @@
       z-index: 1;
     }
   }
+
+    .btn + .btn,
+  .btn + .btn-group,
+  .btn-group + .btn,
+  .btn-group + .btn-group {
+    margin-left: -$btn-border-width;
+  }
+}
