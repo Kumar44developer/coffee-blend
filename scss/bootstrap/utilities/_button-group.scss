@@ -25,3 +25,13 @@
     margin-left: -$btn-border-width;
   }
 }
+
+.btn-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  .input-group {
+    width: auto;
+  }
+}
