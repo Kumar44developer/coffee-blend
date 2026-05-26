@@ -3,3 +3,7 @@
   position: relative;
   display: inline-flex;
   vertical-align: middle;
+
+    > .btn {
+    position: relative;
+    flex: 0 1 auto;
