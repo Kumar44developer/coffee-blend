@@ -25,3 +25,7 @@
     opacity: $btn-disabled-opacity;
     @include box-shadow(none);
   }
+
+    &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
