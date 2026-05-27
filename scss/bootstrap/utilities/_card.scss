@@ -20,3 +20,10 @@
       @include border-top-radius($card-border-radius);
     }
   }
+
+    > .list-group:last-child {
+    .list-group-item:last-child {
+      @include border-bottom-radius($card-border-radius);
+    }
+  }
+}
