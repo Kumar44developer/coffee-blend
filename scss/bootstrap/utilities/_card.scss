@@ -48,3 +48,8 @@
 .card-text:last-child {
   margin-bottom: 0;
 }
+
+.card-link {
+  @include hover {
+    text-decoration: none;
+  }
