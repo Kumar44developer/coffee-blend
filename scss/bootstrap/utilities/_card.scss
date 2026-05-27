@@ -14,3 +14,9 @@
     margin-right: 0;
     margin-left: 0;
   }
+
+    > .list-group:first-child {
+    .list-group-item:first-child {
+      @include border-top-radius($card-border-radius);
+    }
+  }
