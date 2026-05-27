@@ -127,3 +127,7 @@
   width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
   @include border-bottom-radius($card-inner-border-radius);
 }
+
+  .card-deck {
+  display: flex;
+  flex-direction: column;
