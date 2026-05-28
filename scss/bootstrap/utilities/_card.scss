@@ -152,3 +152,9 @@
 .card-group {
   display: flex;
   flex-direction: column;
+
+
+    // to display properly.
+  > .card {
+    margin-bottom: $card-group-margin;
+  }
