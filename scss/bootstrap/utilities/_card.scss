@@ -256,3 +256,10 @@
     border-bottom: 0;
     border-radius: 0;
   }
+
+
+  .card:not(:first-of-type) {
+    .card-header:first-child {
+      border-radius: 0;
+    }
+  }
