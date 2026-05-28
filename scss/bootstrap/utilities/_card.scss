@@ -178,3 +178,14 @@
             @if $enable-rounded {
         &:first-child {
           @include border-right-radius(0);
+
+
+          .card-img-top,
+          .card-header {
+            border-top-right-radius: 0;
+          }
+          .card-img-bottom,
+          .card-footer {
+            border-bottom-right-radius: 0;
+          }
+        }
