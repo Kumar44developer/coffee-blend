@@ -203,3 +203,16 @@
             border-bottom-left-radius: 0;
           }
         }
+
+                      &:only-child {
+          @include border-radius($card-border-radius);
+
+          .card-img-top,
+          .card-header {
+            @include border-top-radius($card-border-radius);
+          }
+          .card-img-bottom,
+          .card-footer {
+            @include border-bottom-radius($card-border-radius);
+          }
+        }
