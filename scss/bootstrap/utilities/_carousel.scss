@@ -19,4 +19,8 @@
   perspective: 1000px;
 }
 
-
+.carousel-item-next,
+.carousel-item-prev {
+  position: absolute;
+  top: 0;
+}
