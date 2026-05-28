@@ -216,3 +216,18 @@
             @include border-bottom-radius($card-border-radius);
           }
         }
+
+        &:not(:first-child):not(:last-child):not(:only-child) {
+          @include border-radius(0);
+
+          .card-img-top,
+          .card-img-bottom,
+          .card-header,
+          .card-footer {
+            @include border-radius(0);
+          }
+        }
+      }
+    }
+  }
+}
