@@ -50,3 +50,9 @@
     transition-duration: .6s;
     transition-property: opacity;
   }
+
+    .carousel-item.active,
+  .carousel-item-next.carousel-item-left,
+  .carousel-item-prev.carousel-item-right {
+    opacity: 1;
+  }
