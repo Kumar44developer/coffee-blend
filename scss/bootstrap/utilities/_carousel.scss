@@ -172,3 +172,8 @@
       content: "";
     }
   }
+
+  .active {
+    background-color: $carousel-indicator-active-bg;
+  }
+}
