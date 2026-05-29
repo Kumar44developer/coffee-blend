@@ -141,3 +141,13 @@
   margin-right: $carousel-control-width;
   margin-left: $carousel-control-width;
   list-style: none;
+
+  li {
+    position: relative;
+    flex: 0 1 auto;
+    width: $carousel-indicator-width;
+    height: $carousel-indicator-height;
+    margin-right: $carousel-indicator-spacer;
+    margin-left: $carousel-indicator-spacer;
+    text-indent: -999px;
+    background-color: rgba($carousel-indicator-active-bg, .5);
