@@ -89,3 +89,11 @@
   color: $carousel-control-color;
   text-align: center;
   opacity: $carousel-control-opacity;
+
+  @include hover-focus {
+    color: $carousel-control-color;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+  }
+}
