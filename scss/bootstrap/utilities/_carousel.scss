@@ -62,3 +62,10 @@
   .active.carousel-item-right {
     opacity: 0;
   }
+
+    .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active,
+  .active.carousel-item-left,
+  .active.carousel-item-prev {
+    transform: translateX(0);
