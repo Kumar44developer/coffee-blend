@@ -43,3 +43,10 @@
     transform: translate3d(100%, 0, 0);
   }
 }
+
+.carousel-fade {
+  .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+  }
