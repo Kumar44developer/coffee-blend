@@ -12,3 +12,8 @@
     text-decoration: none;
     opacity: .75;
   }
+
+    &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+}
