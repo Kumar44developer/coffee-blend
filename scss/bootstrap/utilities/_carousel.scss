@@ -56,3 +56,9 @@
   .carousel-item-prev.carousel-item-right {
     opacity: 1;
   }
+
+  
+  .active.carousel-item-left,
+  .active.carousel-item-right {
+    opacity: 0;
+  }
