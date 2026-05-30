@@ -82,3 +82,12 @@
   .custom-control-label::before {
     @include border-radius($custom-checkbox-indicator-border-radius);
   }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::before {
+      @include gradient-bg($custom-control-indicator-checked-bg);
+    }
+    &::after {
+      background-image: $custom-checkbox-indicator-icon-checked;
+    }
+  }
