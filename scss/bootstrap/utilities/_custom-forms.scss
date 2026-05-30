@@ -112,3 +112,8 @@
     }
   }
 }
+
+.custom-radio {
+  .custom-control-label::before {
+    border-radius: $custom-radio-indicator-border-radius;
+  }
