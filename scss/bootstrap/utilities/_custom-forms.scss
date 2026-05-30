@@ -16,3 +16,9 @@
   position: absolute;
   z-index: -1; // Put the input behind the label so it doesn't overlay text
   opacity: 0;
+
+    &:checked ~ .custom-control-label::before {
+    color: $custom-control-indicator-checked-color;
+    @include gradient-bg($custom-control-indicator-checked-bg);
+    @include box-shadow($custom-control-indicator-checked-box-shadow);
+  }
