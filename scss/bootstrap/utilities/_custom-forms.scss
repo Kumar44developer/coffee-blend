@@ -10,3 +10,9 @@
   display: inline-flex;
   margin-right: $custom-control-spacer-x;
 }
+
+
+.custom-control-input {
+  position: absolute;
+  z-index: -1; // Put the input behind the label so it doesn't overlay text
+  opacity: 0;
