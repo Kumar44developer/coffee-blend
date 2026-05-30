@@ -117,3 +117,12 @@
   .custom-control-label::before {
     border-radius: $custom-radio-indicator-border-radius;
   }
+
+    .custom-control-input:checked ~ .custom-control-label {
+    &::before {
+      @include gradient-bg($custom-control-indicator-checked-bg);
+    }
+    &::after {
+      background-image: $custom-radio-indicator-icon-checked;
+    }
+  }
