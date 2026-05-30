@@ -76,3 +76,9 @@
     background-size: $custom-control-indicator-bg-size;
   }
 }
+
+
+.custom-checkbox {
+  .custom-control-label::before {
+    @include border-radius($custom-checkbox-indicator-border-radius);
+  }
