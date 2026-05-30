@@ -36,3 +36,11 @@ pre {
   display: block;
   font-size: $code-font-size;
   color: $pre-color;
+
+
+  code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+  }
+}
