@@ -31,3 +31,8 @@ kbd {
     @include box-shadow(none);
   }
 }
+
+pre {
+  display: block;
+  font-size: $code-font-size;
+  color: $pre-color;
