@@ -28,3 +28,8 @@
     // the mixin is not used here to make sure there is feedback
     box-shadow: $custom-control-indicator-focus-box-shadow;
   }
+  &:active ~ .custom-control-label::before {
+    color: $custom-control-indicator-active-color;
+    background-color: $custom-control-indicator-active-bg;
+    @include box-shadow($custom-control-indicator-active-box-shadow);
+  }
