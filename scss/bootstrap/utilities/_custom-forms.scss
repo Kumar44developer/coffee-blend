@@ -33,3 +33,14 @@
     background-color: $custom-control-indicator-active-bg;
     @include box-shadow($custom-control-indicator-active-box-shadow);
   }
+
+    &:disabled {
+    ~ .custom-control-label {
+      color: $custom-control-label-disabled-color;
+
+      &::before {
+        background-color: $custom-control-indicator-disabled-bg;
+      }
+    }
+  }
+}
