@@ -322,3 +322,12 @@
     @include border-radius($custom-range-track-border-radius);
     @include box-shadow($custom-range-track-box-shadow);
   }
+
+  &::-moz-range-thumb {
+    width: $custom-range-thumb-width;
+    height: $custom-range-thumb-height;
+    @include gradient-bg($custom-range-thumb-bg);
+    border: $custom-range-thumb-border;
+    @include border-radius($custom-range-thumb-border-radius);
+    @include box-shadow($custom-range-thumb-box-shadow);
+    appearance: none;
