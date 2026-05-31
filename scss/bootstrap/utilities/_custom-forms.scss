@@ -276,3 +276,9 @@
     @include border-radius(0 $custom-file-border-radius $custom-file-border-radius 0);
   }
 }
+
+.custom-range {
+  width: 100%;
+  padding-left: 0; // Firefox specific
+  background-color: transparent;
+  appearance: none;
