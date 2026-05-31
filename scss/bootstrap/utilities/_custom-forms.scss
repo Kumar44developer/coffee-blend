@@ -384,3 +384,8 @@
     border-width: ($custom-range-thumb-height * .5);
     @include box-shadow($custom-range-track-box-shadow);
   }
+
+  &::-ms-fill-lower {
+    background-color: $custom-range-track-bg;
+    @include border-radius($custom-range-track-border-radius);
+  }
