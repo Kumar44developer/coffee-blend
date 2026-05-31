@@ -235,3 +235,11 @@
       border-color: $custom-file-focus-border-color;
     }
   }
+
+
+  @each $lang, $value in $custom-file-text {
+    &:lang(#{$lang}) ~ .custom-file-label::after {
+      content: $value;
+    }
+  }
+}
