@@ -208,3 +208,12 @@
   padding-bottom: $custom-select-padding-y;
   font-size: $custom-select-font-size-lg;
 }
+
+
+.custom-file {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: $custom-file-height;
+  margin-bottom: 0;
+}
