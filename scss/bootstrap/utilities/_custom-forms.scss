@@ -184,3 +184,8 @@
     padding-right: $custom-select-padding-x;
     background-image: none;
   }
+
+    &:disabled {
+    color: $custom-select-disabled-color;
+    background-color: $custom-select-disabled-bg;
+  }
