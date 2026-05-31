@@ -189,3 +189,8 @@
     color: $custom-select-disabled-color;
     background-color: $custom-select-disabled-bg;
   }
+
+  &::-ms-expand {
+    opacity: 0;
+  }
+}
