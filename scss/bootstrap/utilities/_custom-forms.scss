@@ -373,3 +373,14 @@
       @include gradient-bg($custom-range-thumb-active-bg);
     }
   }
+
+  &::-ms-track {
+    width: $custom-range-track-width;
+    height: $custom-range-track-height;
+    color: transparent;
+    cursor: $custom-range-track-cursor;
+    background-color: transparent;
+    border-color: transparent;
+    border-width: ($custom-range-thumb-height * .5);
+    @include box-shadow($custom-range-track-box-shadow);
+  }
