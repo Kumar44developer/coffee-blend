@@ -217,3 +217,11 @@
   height: $custom-file-height;
   margin-bottom: 0;
 }
+
+.custom-file-input {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: $custom-file-height;
+  margin: 0;
+  opacity: 0;
