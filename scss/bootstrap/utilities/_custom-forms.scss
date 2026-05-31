@@ -331,3 +331,13 @@
     @include border-radius($custom-range-thumb-border-radius);
     @include box-shadow($custom-range-thumb-box-shadow);
     appearance: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: $custom-range-thumb-focus-box-shadow; // No mixin for focus accessibility
+    }
+
+    &:active {
+      @include gradient-bg($custom-range-thumb-active-bg);
+    }
+  }
