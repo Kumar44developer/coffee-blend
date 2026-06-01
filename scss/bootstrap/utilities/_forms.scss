@@ -20,3 +20,8 @@
     @include box-shadow($input-box-shadow);
   @include transition($input-transition);
 
+  // Unstyle the caret on `<select>`s in IE10+.
+  &::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
