@@ -84,3 +84,14 @@
     }
   }
 }
+
+
+.dropdown-menu {
+  &[x-placement^="top"],
+  &[x-placement^="right"],
+  &[x-placement^="bottom"],
+  &[x-placement^="left"] {
+    right: auto;
+    bottom: auto;
+  }
+}
