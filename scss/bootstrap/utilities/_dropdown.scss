@@ -76,3 +76,11 @@
     margin-top: 0;
     margin-right: $dropdown-spacer;
   }
+
+  .dropdown-toggle {
+    @include caret(left);
+    &::before {
+      vertical-align: 0;
+    }
+  }
+}
