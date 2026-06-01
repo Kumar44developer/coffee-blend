@@ -95,3 +95,7 @@
     bottom: auto;
   }
 }
+
+.dropdown-divider {
+  @include nav-divider($dropdown-divider-bg);
+}
