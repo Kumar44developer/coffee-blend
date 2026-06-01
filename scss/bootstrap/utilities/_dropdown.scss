@@ -59,3 +59,11 @@
     margin-top: 0;
     margin-left: $dropdown-spacer;
   }
+
+    .dropdown-toggle {
+    @include caret(right);
+    &::after {
+      vertical-align: 0;
+    }
+  }
+}
