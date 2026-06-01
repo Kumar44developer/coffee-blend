@@ -42,3 +42,8 @@
     opacity: 1;
   }
 }
+
+select.form-control {
+  &:not([size]):not([multiple]) {
+    height: $input-height;
+  }
