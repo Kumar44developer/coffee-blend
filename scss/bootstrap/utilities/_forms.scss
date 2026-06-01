@@ -73,3 +73,10 @@ select.form-control {
   font-size: inherit; // Override the `<legend>` default
   line-height: $input-line-height;
 }
+
+.col-form-label-lg {
+  padding-top: calc(#{$input-padding-y-lg} + #{$input-border-width});
+  padding-bottom: calc(#{$input-padding-y-lg} + #{$input-border-width});
+  font-size: $font-size-lg;
+  line-height: $input-line-height-lg;
+}
