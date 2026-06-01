@@ -5,3 +5,8 @@
 .dropleft {
   position: relative;
 }
+
+.dropdown-toggle {
+  // Generate the caret automatically
+  @include caret;
+}
