@@ -44,3 +44,9 @@
     margin-top: 0;
     margin-bottom: $dropdown-spacer;
   }
+
+
+  .dropdown-toggle {
+    @include caret(up);
+  }
+}
