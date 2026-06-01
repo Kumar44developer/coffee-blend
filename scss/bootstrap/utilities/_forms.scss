@@ -58,3 +58,9 @@ select.form-control {
     background-color: $input-bg;
   }
 }
+
+.form-control-file,
+.form-control-range {
+  display: block;
+  width: 100%;
+}
