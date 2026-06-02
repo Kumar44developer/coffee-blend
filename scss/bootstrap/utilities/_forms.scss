@@ -205,3 +205,7 @@ select.form-control-lg {
   display: flex;
   flex-flow: row wrap;
   align-items: center; 
+
+  .form-check {
+    width: 100%;
+  }
