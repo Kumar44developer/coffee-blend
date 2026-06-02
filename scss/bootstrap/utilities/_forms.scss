@@ -249,3 +249,9 @@ select.form-control-lg {
       width: auto;
       padding-left: 0;
     }
+    .form-check-input {
+      position: relative;
+      margin-top: 0;
+      margin-right: $form-check-input-margin-x;
+      margin-left: 0;
+    }
