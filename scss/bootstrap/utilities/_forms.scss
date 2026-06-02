@@ -166,3 +166,8 @@ select.form-control-lg {
   display: block;
   padding-left: $form-check-input-gutter;
 }
+
+.form-check-input {
+  position: absolute;
+  margin-top: $form-check-input-margin-y;
+  margin-left: -$form-check-input-gutter;
