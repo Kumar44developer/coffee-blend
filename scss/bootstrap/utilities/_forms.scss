@@ -117,3 +117,8 @@ select.form-control {
   @include border-radius($input-border-radius-sm);
 }
 
+select.form-control-sm {
+  &:not([size]):not([multiple]) {
+    height: $input-height-sm;
+  }
+}
