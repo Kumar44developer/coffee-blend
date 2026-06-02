@@ -236,3 +236,8 @@ select.form-control-lg {
     .form-control-plaintext {
       display: inline-block;
     }
+
+    .input-group,
+    .custom-select {
+      width: auto;
+    }
