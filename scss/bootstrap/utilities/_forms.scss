@@ -199,3 +199,9 @@ select.form-control-lg {
 
 @include form-validation-state("valid", $form-feedback-valid-color);
 @include form-validation-state("invalid", $form-feedback-invalid-color);
+
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; 
