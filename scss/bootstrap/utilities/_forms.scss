@@ -108,3 +108,12 @@ select.form-control {
     padding-left: 0;
   }
 }
+
+
+.form-control-sm {
+  padding: $input-padding-y-sm $input-padding-x-sm;
+  font-size: $font-size-sm;
+  line-height: $input-line-height-sm;
+  @include border-radius($input-border-radius-sm);
+}
+
