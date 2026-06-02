@@ -130,3 +130,10 @@ select.form-control-sm {
   line-height: $input-line-height-lg;
   @include border-radius($input-border-radius-lg);
 }
+
+select.form-control-lg {
+  &:not([size]):not([multiple]) {
+    height: $input-height-lg;
+  }
+}
+
