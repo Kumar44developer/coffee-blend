@@ -255,3 +255,14 @@ select.form-control-lg {
       margin-right: $form-check-input-margin-x;
       margin-left: 0;
     }
+
+
+    .custom-control {
+      align-items: center;
+      justify-content: center;
+    }
+    .custom-control-label {
+      margin-bottom: 0;
+    }
+  }
+}
