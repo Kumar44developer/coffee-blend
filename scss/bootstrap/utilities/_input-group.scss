@@ -10,3 +10,10 @@
   > .custom-file {
     position: relative; // For focus state's z-index
     flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+
+    // Bring the "active" form control to the top of surrounding elements
+    &:focus {
+      z-index: 3;
+    }
