@@ -12,3 +12,8 @@
   // Keep them at most 100% wide
   @include img-fluid;
 }
+
+.figure {
+  // Ensures the caption's text aligns with the image.
+  display: inline-block;
+}
