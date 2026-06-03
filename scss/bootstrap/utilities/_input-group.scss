@@ -50,3 +50,12 @@
     position: relative;
     z-index: 2;
   }
+
+
+  .btn + .btn,
+  .btn + .input-group-text,
+  .input-group-text + .input-group-text,
+  .input-group-text + .btn {
+    margin-left: -$input-border-width;
+  }
+}
