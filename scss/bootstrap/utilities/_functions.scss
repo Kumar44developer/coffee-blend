@@ -31,3 +31,8 @@
 
   @return $string;
 }
+
+@function color-yiq($color) {
+  $r: red($color);
+  $g: green($color);
+  $b: blue($color);
