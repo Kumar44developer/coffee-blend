@@ -41,3 +41,7 @@
     &:not(:first-child) .custom-file-label::after { @include border-left-radius(0); }
   }
 }
+
+.input-group-prepend,
+.input-group-append {
+  display: flex;
