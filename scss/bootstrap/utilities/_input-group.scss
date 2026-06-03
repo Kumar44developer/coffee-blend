@@ -45,3 +45,8 @@
 .input-group-prepend,
 .input-group-append {
   display: flex;
+
+  .btn {
+    position: relative;
+    z-index: 2;
+  }
