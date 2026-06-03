@@ -17,3 +17,9 @@
   // Ensures the caption's text aligns with the image.
   display: inline-block;
 }
+
+
+.figure-img {
+  margin-bottom: ($spacer / 2);
+  line-height: 1;
+}
