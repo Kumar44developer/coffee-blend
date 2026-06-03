@@ -45,3 +45,6 @@
     @return $yiq-text-light;
   }
 }
+@function color($key: "blue") {
+  @return map-get($colors, $key);
+}
