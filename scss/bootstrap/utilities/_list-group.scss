@@ -40,3 +40,8 @@
     margin-bottom: 0;
     @include border-bottom-radius($list-group-border-radius);
   }
+
+  @include hover-focus {
+    z-index: 1; // Place hover/active items above their siblings for proper border styling
+    text-decoration: none;
+  }
