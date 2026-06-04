@@ -102,3 +102,10 @@
 .input-group-sm > .input-group-append > .btn {
   @extend .form-control-sm;
 }
+
+
+
+.input-group > .input-group-prepend > .btn,
+.input-group > .input-group-prepend > .input-group-text,
+.input-group > .input-group-append:not(:last-child) > .btn,
+.input-group > .input-group-append:not(:last-child) > .input-group-text,
