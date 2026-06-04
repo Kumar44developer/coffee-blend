@@ -78,3 +78,9 @@
   background-color: $input-group-addon-bg;
   border: $input-border-width solid $input-group-addon-border-color;
   @include border-radius($input-border-radius);
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-top: 0;
+  }
+}
