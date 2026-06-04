@@ -45,3 +45,10 @@
     z-index: 1; // Place hover/active items above their siblings for proper border styling
     text-decoration: none;
   }
+
+
+  &.disabled,
+  &:disabled {
+    color: $list-group-disabled-color;
+    background-color: $list-group-disabled-bg;
+  }
