@@ -23,3 +23,8 @@
     background-color: $list-group-action-active-bg;
   }
 }
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: $list-group-item-padding-y $list-group-item-padding-x;
