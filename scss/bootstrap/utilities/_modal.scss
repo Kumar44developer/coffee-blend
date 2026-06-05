@@ -108,3 +108,5 @@
   display: flex;
   align-items: center; // vertically center
   justify-content: flex-end;
+  padding: $modal-inner-padding;
+  border-top: $modal-footer-border-width solid $modal-footer-border-color;
