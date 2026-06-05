@@ -90,3 +90,9 @@
     margin: (-$modal-header-padding) (-$modal-header-padding) (-$modal-header-padding) auto;
   }
 }
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: $modal-title-line-height;
+}
+
