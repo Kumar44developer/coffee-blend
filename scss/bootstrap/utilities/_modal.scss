@@ -1,1 +1,4 @@
-
+// Kill the scroll on the body
+.modal-open {
+  overflow: hidden;
+}
