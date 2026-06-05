@@ -75,3 +75,8 @@
   &.fade { opacity: 0; }
   &.show { opacity: $modal-backdrop-opacity; }
 }
+
+.modal-header {
+  display: flex;
+  align-items: flex-start; // so the close btn always stays on the upper right corner
+  justify-content: space-between;
