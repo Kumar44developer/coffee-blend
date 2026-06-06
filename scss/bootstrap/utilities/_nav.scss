@@ -87,3 +87,13 @@
     text-align: center;
   }
 }
+
+
+.tab-content {
+  > .tab-pane {
+    display: none;
+  }
+  > .active {
+    display: block;
+  }
+}
