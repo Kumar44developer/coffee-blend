@@ -134,3 +134,8 @@
   .modal-dialog-centered {
     min-height: calc(100% - (#{$modal-dialog-margin-y-sm-up} * 2));
   }
+
+
+  .modal-content {
+    @include box-shadow($modal-content-box-shadow-sm-up);
+  }
