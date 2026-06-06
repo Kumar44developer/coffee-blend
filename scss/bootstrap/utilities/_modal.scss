@@ -129,3 +129,8 @@
     max-width: $modal-md;
     margin: $modal-dialog-margin-y-sm-up auto;
   }
+
+
+  .modal-dialog-centered {
+    min-height: calc(100% - (#{$modal-dialog-margin-y-sm-up} * 2));
+  }
