@@ -56,3 +56,9 @@
     @include border-top-radius(0);
   }
 }
+
+
+.nav-pills {
+  .nav-link {
+    @include border-radius($nav-pills-border-radius);
+  }
