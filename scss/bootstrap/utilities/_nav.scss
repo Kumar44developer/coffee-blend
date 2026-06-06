@@ -70,3 +70,11 @@
     background-color: $nav-pills-link-active-bg;
   }
 }
+
+
+.nav-fill {
+  .nav-item {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
