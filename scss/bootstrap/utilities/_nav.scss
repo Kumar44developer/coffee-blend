@@ -34,3 +34,10 @@
     @include hover-focus {
       border-color: $nav-tabs-link-hover-border-color;
     }
+
+    &.disabled {
+      color: $nav-link-disabled-color;
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
