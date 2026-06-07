@@ -145,3 +145,9 @@
 .navbar-light {
   .navbar-brand {
     color: $navbar-light-active-color;
+
+
+    @include hover-focus {
+      color: $navbar-light-active-color;
+    }
+  }
