@@ -160,3 +160,8 @@
       @include hover-focus {
         color: $navbar-light-hover-color;
       }
+
+      &.disabled {
+        color: $navbar-light-disabled-color;
+      }
+    }
