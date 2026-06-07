@@ -121,3 +121,8 @@
             padding-left: $navbar-nav-link-padding-x;
           }
         }
+
+        > .container,
+        > .container-fluid {
+          flex-wrap: nowrap;
+        }
