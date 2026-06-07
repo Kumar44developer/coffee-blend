@@ -130,3 +130,14 @@
 
         .navbar-collapse {
           display: flex !important; 
+
+          flex-basis: auto;
+        }
+
+        .navbar-toggler {
+          display: none;
+        }
+      }
+    }
+  }
+}
