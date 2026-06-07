@@ -80,3 +80,13 @@
   &:not(:disabled):not(.disabled) {
     cursor: pointer;
   }
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
