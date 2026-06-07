@@ -104,3 +104,6 @@
           padding-left: 0;
         }
       }
+      @include media-breakpoint-up($next) {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
