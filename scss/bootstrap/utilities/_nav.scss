@@ -97,3 +97,13 @@
     display: block;
   }
 }
+
+
+.tab-content {
+  > .tab-pane {
+    display: none;
+  }
+  > .active {
+    display: block;
+  }
+}
