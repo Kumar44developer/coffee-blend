@@ -151,3 +151,7 @@
       color: $navbar-light-active-color;
     }
   }
+
+  .navbar-nav {
+    .nav-link {
+      color: $navbar-light-color;
