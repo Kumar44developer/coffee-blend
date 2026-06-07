@@ -76,3 +76,7 @@
   @include hover-focus {
     text-decoration: none;
   }
+
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
