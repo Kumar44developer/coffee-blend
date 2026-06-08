@@ -33,3 +33,11 @@
     cursor: pointer;
   }
 }
+
+.page-item {
+  &:first-child {
+    .page-link {
+      margin-left: 0;
+      @include border-left-radius($border-radius);
+    }
+  }
