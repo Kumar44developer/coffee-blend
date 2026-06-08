@@ -33,3 +33,10 @@
     }
   }
 }
+
+.bs-popover-top {
+  margin-bottom: $popover-arrow-height;
+
+  .arrow {
+    bottom: calc((#{$popover-arrow-height} + #{$popover-border-width}) * -1);
+  }
