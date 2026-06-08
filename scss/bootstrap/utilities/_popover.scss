@@ -84,3 +84,11 @@
     border-right-color: $popover-arrow-color;
   }
 }
+
+
+.bs-popover-bottom {
+  margin-top: $popover-arrow-height;
+
+  .arrow {
+    top: calc((#{$popover-arrow-height} + #{$popover-border-width}) * -1);
+  }
