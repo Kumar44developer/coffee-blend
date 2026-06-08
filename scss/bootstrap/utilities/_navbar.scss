@@ -239,3 +239,8 @@
   .navbar-toggler-icon {
     background-image: $navbar-dark-toggler-icon-bg;
   }
+
+  .navbar-text {
+    color: $navbar-dark-color;
+    a {
+      color: $navbar-dark-active-color;
