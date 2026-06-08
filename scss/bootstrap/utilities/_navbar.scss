@@ -183,3 +183,9 @@
   .navbar-toggler-icon {
     background-image: $navbar-light-toggler-icon-bg;
   }
+
+
+  .navbar-text {
+    color: $navbar-light-color;
+    a {
+      color: $navbar-light-active-color;
