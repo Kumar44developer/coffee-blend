@@ -102,3 +102,9 @@
     top: 0;
     border-bottom-color: $popover-arrow-outer-color;
   }
+
+
+  .arrow::after {
+    top: $popover-border-width;
+    border-bottom-color: $popover-arrow-color;
+  }
