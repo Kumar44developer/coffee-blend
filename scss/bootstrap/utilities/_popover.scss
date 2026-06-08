@@ -78,3 +78,9 @@
     left: 0;
     border-right-color: $popover-arrow-outer-color;
   }
+
+  .arrow::after {
+    left: $popover-border-width;
+    border-right-color: $popover-arrow-color;
+  }
+}
