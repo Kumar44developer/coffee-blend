@@ -217,3 +217,8 @@
       @include hover-focus {
         color: $navbar-dark-hover-color;
       }
+
+      &.disabled {
+        color: $navbar-dark-disabled-color;
+      }
+    }
