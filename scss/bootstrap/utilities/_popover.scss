@@ -134,3 +134,9 @@
   .arrow::after {
     border-width: ($popover-arrow-width / 2) 0 ($popover-arrow-width / 2) $popover-arrow-height;
   }
+
+
+  .arrow::before {
+    right: 0;
+    border-left-color: $popover-arrow-outer-color;
+  }
