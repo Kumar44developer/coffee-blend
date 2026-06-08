@@ -28,3 +28,8 @@
     outline: $pagination-focus-outline;
     box-shadow: $pagination-focus-box-shadow;
   }
+
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+}
