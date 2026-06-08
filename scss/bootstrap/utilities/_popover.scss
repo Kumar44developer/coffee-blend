@@ -5,3 +5,13 @@
   z-index: $zindex-popover;
   display: block;
   max-width: $popover-max-width;
+
+  @include reset-text();
+  font-size: $popover-font-size;
+  // Allow breaking very long words so they don't overflow the popover's bounds
+  word-wrap: break-word;
+  background-color: $popover-bg;
+  background-clip: padding-box;
+  border: $popover-border-width solid $popover-border-color;
+  @include border-radius($popover-border-radius);
+  @include box-shadow($popover-box-shadow);
