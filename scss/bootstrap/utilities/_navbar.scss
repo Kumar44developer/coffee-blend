@@ -244,3 +244,11 @@
     color: $navbar-dark-color;
     a {
       color: $navbar-dark-active-color;
+
+
+      @include hover-focus {
+        color: $navbar-dark-active-color;
+      }
+    }
+  }
+}
