@@ -140,3 +140,10 @@
     right: 0;
     border-left-color: $popover-arrow-outer-color;
   }
+
+
+  .arrow::after {
+    right: $popover-border-width;
+    border-left-color: $popover-arrow-color;
+  }
+}
