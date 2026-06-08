@@ -222,3 +222,11 @@
         color: $navbar-dark-disabled-color;
       }
     }
+
+    .show > .nav-link,
+    .active > .nav-link,
+    .nav-link.show,
+    .nav-link.active {
+      color: $navbar-dark-active-color;
+    }
+  }
