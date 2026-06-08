@@ -15,3 +15,10 @@
   border: $popover-border-width solid $popover-border-color;
   @include border-radius($popover-border-radius);
   @include box-shadow($popover-box-shadow);
+
+  .arrow {
+    position: absolute;
+    display: block;
+    width: $popover-arrow-width;
+    height: $popover-arrow-height;
+    margin: 0 $border-radius-lg;
