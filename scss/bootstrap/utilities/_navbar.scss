@@ -235,3 +235,7 @@
     color: $navbar-dark-color;
     border-color: $navbar-dark-toggler-border-color;
   }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-dark-toggler-icon-bg;
+  }
