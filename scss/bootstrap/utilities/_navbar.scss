@@ -179,3 +179,7 @@
     color: $navbar-light-color;
     border-color: $navbar-light-toggler-border-color;
   }
+
+  .navbar-toggler-icon {
+    background-image: $navbar-light-toggler-icon-bg;
+  }
