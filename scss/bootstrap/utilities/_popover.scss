@@ -92,3 +92,13 @@
   .arrow {
     top: calc((#{$popover-arrow-height} + #{$popover-border-width}) * -1);
   }
+
+  .arrow::before,
+  .arrow::after {
+    border-width: 0 ($popover-arrow-width / 2) $popover-arrow-height ($popover-arrow-width / 2);
+  }
+
+  .arrow::before {
+    top: 0;
+    border-bottom-color: $popover-arrow-outer-color;
+  }
