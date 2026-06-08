@@ -230,3 +230,8 @@
       color: $navbar-dark-active-color;
     }
   }
+
+  .navbar-toggler {
+    color: $navbar-dark-color;
+    border-color: $navbar-dark-toggler-border-color;
+  }
