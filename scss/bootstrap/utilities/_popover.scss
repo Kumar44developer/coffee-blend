@@ -46,3 +46,8 @@
   .arrow::after {
     border-width: $popover-arrow-height ($popover-arrow-width / 2) 0;
   }
+
+  .arrow::before {
+    bottom: 0;
+    border-top-color: $popover-arrow-outer-color;
+  }
