@@ -22,3 +22,9 @@
     background-color: $pagination-hover-bg;
     border-color: $pagination-hover-border-color;
   }
+
+  &:focus {
+    z-index: 2;
+    outline: $pagination-focus-outline;
+    box-shadow: $pagination-focus-box-shadow;
+  }
