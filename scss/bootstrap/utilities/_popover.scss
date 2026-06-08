@@ -51,3 +51,9 @@
     bottom: 0;
     border-top-color: $popover-arrow-outer-color;
   }
+
+  .arrow::after {
+    bottom: $popover-border-width;
+    border-top-color: $popover-arrow-color;
+  }
+}
