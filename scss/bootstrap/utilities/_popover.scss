@@ -172,3 +172,10 @@
   border-bottom: $popover-border-width solid darken($popover-header-bg, 5%);
   $offset-border-width: calc(#{$border-radius-lg} - #{$popover-border-width});
   @include border-top-radius($offset-border-width);
+
+
+
+  &:empty {
+    display: none;
+  }
+}
