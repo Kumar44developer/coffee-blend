@@ -16,3 +16,7 @@
         text-decoration: underline;
       }
     }
+
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
