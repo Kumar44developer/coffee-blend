@@ -20,3 +20,13 @@
     abbr[title]::after {
       content: " (" attr(title) ")";
     }
+
+
+    pre {
+      white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+      border: $border-width solid $gray-500;   // Bootstrap custom code; using `$border-width` instead of 1px
+      page-break-inside: avoid;
+    }
