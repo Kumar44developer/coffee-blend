@@ -10,7 +10,7 @@
       //background: transparent !important;
       box-shadow: none !important;
     }
-
+                                   
     a {
       &:not(.btn) {
         text-decoration: underline;
@@ -67,4 +67,8 @@
 
     .navbar {
       display: none;
+    }
+
+    .badge {
+      border: $border-width solid $black;
     }
