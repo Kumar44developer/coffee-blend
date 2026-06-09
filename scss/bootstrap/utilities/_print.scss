@@ -81,3 +81,9 @@
         background-color: $white !important;
       }
     }
+    .table-bordered {
+      th,
+      td {
+        border: 1px solid $gray-300 !important;
+      }
+    }
