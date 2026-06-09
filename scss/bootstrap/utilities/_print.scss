@@ -75,3 +75,9 @@
 
     .table {
       border-collapse: collapse !important;
+
+      td,
+      th {
+        background-color: $white !important;
+      }
+    }
