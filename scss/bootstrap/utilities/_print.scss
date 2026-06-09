@@ -35,3 +35,8 @@
     thead {
       display: table-header-group;
     }
+
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
