@@ -24,3 +24,8 @@
   background-color: $progress-bar-bg;
   @include transition($progress-bar-transition);
 }
+
+.progress-bar-striped {
+  @include gradient-striped();
+  background-size: $progress-height $progress-height;
+}
