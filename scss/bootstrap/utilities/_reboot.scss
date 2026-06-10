@@ -85,3 +85,8 @@ ul ol {
 dt {
   font-weight: $dt-font-weight;
 }
+
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0; // Undo browser default
+}
