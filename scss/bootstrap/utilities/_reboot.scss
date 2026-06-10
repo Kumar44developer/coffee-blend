@@ -13,3 +13,9 @@ html {
   -ms-overflow-style: scrollbar; // 5
   -webkit-tap-highlight-color: rgba($black, 0); // 6
 }
+
+@at-root {
+  @-ms-viewport {
+    width: device-width;
+  }
+}
