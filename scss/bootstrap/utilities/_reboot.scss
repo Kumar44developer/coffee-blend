@@ -107,3 +107,11 @@ strong {
 small {
   font-size: 80%; // Add the correct font size in all browsers
 }
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
