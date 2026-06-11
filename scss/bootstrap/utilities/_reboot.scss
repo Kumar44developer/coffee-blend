@@ -118,3 +118,9 @@ sup {
 
 sub { bottom: -.25em; }
 sup { top: -.5em; }
+
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+  background-color: transparent; // Remove the gray background on active links in IE 10.
+  -webkit-text-decoration-skip: objects;
