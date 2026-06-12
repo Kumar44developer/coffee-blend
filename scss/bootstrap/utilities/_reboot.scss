@@ -201,3 +201,9 @@ th {
   // closest parent with a set `text-align`.
   text-align: inherit;
 }
+
+label {
+  // Allow labels to use `margin` for spacing.
+  display: inline-block;
+  margin-bottom: $label-margin-bottom;
+}
