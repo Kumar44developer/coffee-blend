@@ -331,3 +331,8 @@ progress {
 output {
   display: inline-block;
 }
+
+summary {
+  display: list-item; // Add the correct display in all browsers
+  cursor: pointer;
+}
