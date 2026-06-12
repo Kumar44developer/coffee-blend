@@ -266,3 +266,9 @@ input[type="datetime-local"],
 input[type="month"]
   -webkit-appearance: listbox;
 }
+
+textarea {
+  overflow: auto; // Remove the default vertical scrollbar in IE.
+  // Textareas should really only resize vertically so they don't break their (horizontal) containers.
+  resize: vertical;
+}
