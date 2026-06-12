@@ -327,3 +327,7 @@ progress {
   font: inherit; // 2
   -webkit-appearance: button; // 1
 }
+
+output {
+  display: inline-block;
+}
