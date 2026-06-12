@@ -297,3 +297,7 @@ legend {
   color: inherit; // 2
   white-space: normal; // 1
 }
+
+progress {
+  vertical-align: baseline; // Add the correct vertical alignment in Chrome, Firefox, and Opera.
+}
