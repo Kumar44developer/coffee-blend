@@ -301,3 +301,8 @@ legend {
 progress {
   vertical-align: baseline; // Add the correct vertical alignment in Chrome, Firefox, and Opera.
 }
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
