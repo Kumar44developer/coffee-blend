@@ -238,3 +238,10 @@ button,
 select {
   text-transform: none; // Remove the inheritance of text transform in Firefox
 }
+
+button,
+html [type="button"], // 1
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; // 2
+}
