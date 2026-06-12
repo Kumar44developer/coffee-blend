@@ -316,3 +316,9 @@ progress {
   outline-offset: -2px; // 2. Correct the outline style in Safari.
   -webkit-appearance: none;
 }
+
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
