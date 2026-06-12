@@ -173,3 +173,8 @@ figure {
   // Apply a consistent margin strategy (matches our type styles).
   margin: 0 0 1rem;
 }
+
+img {
+  vertical-align: middle;
+  border-style: none; // Remove the border on images inside links in IE 10-.
+}
