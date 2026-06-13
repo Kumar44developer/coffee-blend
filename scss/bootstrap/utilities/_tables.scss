@@ -25,3 +25,10 @@
     background-color: $body-bg;
   }
 }
+
+.table-sm {
+  th,
+  td {
+    padding: $table-cell-padding-sm;
+  }
+}
