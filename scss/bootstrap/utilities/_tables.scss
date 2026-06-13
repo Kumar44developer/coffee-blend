@@ -10,3 +10,8 @@
     vertical-align: top;
     border-top: $table-border-width solid $table-border-color;
   }
+
+  thead th {
+    vertical-align: bottom;
+    border-bottom: (2 * $table-border-width) solid $table-border-color;
+  }
