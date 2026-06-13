@@ -64,3 +64,11 @@
     background-color: $table-accent-bg;
   }
 }
+
+.table-hover {
+  tbody tr {
+    @include hover {
+      background-color: $table-hover-bg;
+    }
+  }
+}
