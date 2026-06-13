@@ -79,3 +79,12 @@
 }
 
 @include table-row-variant(active, $table-active-bg);
+
+.table {
+  .thead-dark {
+    th {
+      color: $table-dark-color;
+      background-color: $table-dark-bg;
+      border-color: $table-dark-border-color;
+    }
+  }
