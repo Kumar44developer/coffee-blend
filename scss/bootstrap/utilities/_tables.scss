@@ -35,3 +35,9 @@
 
 .table-bordered {
   border: $table-border-width solid $table-border-color;
+
+
+  th,
+  td {
+    border: $table-border-width solid $table-border-color;
+  }
