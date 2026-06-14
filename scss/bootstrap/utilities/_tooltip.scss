@@ -104,3 +104,7 @@
   &[x-placement^="bottom"] {
     @extend .bs-tooltip-bottom;
   }
+  &[x-placement^="left"] {
+    @extend .bs-tooltip-left;
+  }
+}
