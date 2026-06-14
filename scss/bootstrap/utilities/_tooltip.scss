@@ -48,3 +48,7 @@
 .bs-tooltip-right {
   padding: 0 $tooltip-arrow-height;
 
+  .arrow {
+    left: 0;
+    width: $tooltip-arrow-height;
+    height: $tooltip-arrow-width;
