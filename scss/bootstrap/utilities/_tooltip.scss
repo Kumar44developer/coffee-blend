@@ -80,3 +80,8 @@
 
 .bs-tooltip-left {
   padding: 0 $tooltip-arrow-height;
+
+  .arrow {
+    right: 0;
+    width: $tooltip-arrow-height;
+    height: $tooltip-arrow-width;
