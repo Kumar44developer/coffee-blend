@@ -67,3 +67,11 @@
 
   .arrow {
     top: 0;
+
+    &::before {
+      bottom: 0;
+      border-width: 0 ($tooltip-arrow-width / 2) $tooltip-arrow-height;
+      border-bottom-color: $tooltip-arrow-color;
+    }
+  }
+}
