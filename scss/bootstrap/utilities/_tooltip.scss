@@ -17,3 +17,12 @@
     display: block;
     width: $tooltip-arrow-width;
     height: $tooltip-arrow-height;
+
+    &::before {
+      position: absolute;
+      content: "";
+      border-color: transparent;
+      border-style: solid;
+    }
+  }
+}
