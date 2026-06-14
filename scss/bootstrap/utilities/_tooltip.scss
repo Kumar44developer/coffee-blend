@@ -52,3 +52,12 @@
     left: 0;
     width: $tooltip-arrow-height;
     height: $tooltip-arrow-width;
+
+
+    &::before {
+      right: 0;
+      border-width: ($tooltip-arrow-width / 2) $tooltip-arrow-height ($tooltip-arrow-width / 2) 0;
+      border-right-color: $tooltip-arrow-color;
+    }
+  }
+}
