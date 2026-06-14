@@ -98,3 +98,6 @@
   &[x-placement^="top"] {
     @extend .bs-tooltip-top;
   }
+  &[x-placement^="right"] {
+    @extend .bs-tooltip-right;
+  }
