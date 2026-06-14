@@ -93,3 +93,8 @@
     }
   }
 }
+
+.bs-tooltip-auto {
+  &[x-placement^="top"] {
+    @extend .bs-tooltip-top;
+  }
