@@ -30,3 +30,15 @@
 
 .bs-tooltip-top {
   padding: $tooltip-arrow-height 0;
+
+
+  .arrow {
+    bottom: 0;
+
+    &::before {
+      top: 0;
+      border-width: $tooltip-arrow-height ($tooltip-arrow-width / 2) 0;
+      border-top-color: $tooltip-arrow-color;
+    }
+  }
+}
