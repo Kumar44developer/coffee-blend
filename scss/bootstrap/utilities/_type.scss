@@ -18,3 +18,9 @@ h6, .h6 { font-size: $h6-font-size; }
   font-size: $lead-font-size;
   font-weight: $lead-font-weight;
 }
+
+.display-1 {
+  font-size: $display1-size;
+  font-weight: $display1-weight;
+  line-height: $display-line-height;
+}
