@@ -78,3 +78,9 @@ mark,
   font-size: 90%;
   text-transform: uppercase;
 }
+
+
+.blockquote {
+  margin-bottom: $spacer;
+  font-size: $blockquote-font-size;
+}
