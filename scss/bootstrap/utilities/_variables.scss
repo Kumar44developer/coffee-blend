@@ -75,3 +75,9 @@ $theme-colors: map-merge((
   "light":      $light,
   "dark":       $dark
 ), $theme-colors);
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:      8% !default;
+
+// The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  150 !default;
