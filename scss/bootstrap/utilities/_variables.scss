@@ -94,3 +94,8 @@ $enable-transitions:        true !default;
 $enable-hover-media-query:  false !default; // Deprecated, no longer affects any compiled CSS
 $enable-grid-classes:       true !default;
 $enable-print-styles:       true !default;
+
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
