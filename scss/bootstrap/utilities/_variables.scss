@@ -149,3 +149,7 @@ $container-max-widths: (
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
+
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           30px !default;
