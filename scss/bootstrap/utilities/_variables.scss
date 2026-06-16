@@ -106,3 +106,10 @@ $spacers: map-merge((
   4: ($spacer * 1.5),
   5: ($spacer * 3)
 ), $spacers);
+
+$sizes: () !default;
+$sizes: map-merge((
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%,
