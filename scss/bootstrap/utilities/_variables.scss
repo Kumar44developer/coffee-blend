@@ -45,3 +45,10 @@ $colors: map-merge((
   "red":        $red,
   "orange":     $orange,
   "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+), $colors);
