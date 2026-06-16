@@ -81,3 +81,7 @@ $theme-color-interval:      8% !default;
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold:  150 !default;
+
+
+$yiq-text-dark:             $gray-900 !default;
+$yiq-text-light:            $white !default;
