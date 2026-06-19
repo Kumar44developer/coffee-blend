@@ -419,3 +419,5 @@ $custom-checkbox-indicator-icon-checked:        str-replace(url("data:image/svg+
 
 $custom-checkbox-indicator-indeterminate-bg:          $component-active-bg !default;
 $custom-checkbox-indicator-indeterminate-color:       $custom-control-indicator-checked-color !default;
+$custom-checkbox-indicator-icon-indeterminate:        str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cpath stroke='#{$custom-checkbox-indicator-indeterminate-color}' d='M0 2h4'/%3E%3C/svg%3E"), "#", "%23") !default;
+$custom-checkbox-indicator-indeterminate-box-shadow:  none !default;
