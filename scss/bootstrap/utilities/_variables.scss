@@ -483,3 +483,8 @@ $custom-file-button-bg:             $input-group-addon-bg !default;
 $custom-file-text: (
   en: "Browse"
 ) !default;
+
+$dropdown-min-width:                10rem !default;
+$dropdown-padding-y:                .5rem !default;
+$dropdown-spacer:                   .125rem !default;
+$dropdown-bg:                       $white !default;
