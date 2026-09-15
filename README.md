@@ -45,60 +45,60 @@ A full-stack coffee shop web application built with PHP and MySQL. Customers can
 
 ```
 coffee-blend/
-├── admin-panel/              # Admin dashboard & management
-│   ├── admins/               # Admin login, registration, listing
-│   ├── booking/              # Admin-side booking creation
-│   ├── bookings-admins/      # View, update status, delete bookings
-│   ├── config/               # Admin DB config
-│   ├── layouts/              # Admin header & footer templates
-│   ├── orders-admins/        # View, show details, delete orders
-│   ├── products-admins/      # Create, view, delete products
-│   ├── styles/               # Admin panel CSS
-│   └── index.php             # Admin dashboard (stats overview)
+├── admin-panel/             
+│   ├── admins/               
+│   ├── booking/              
+│   ├── bookings-admins/      
+│   ├── config/              
+│   ├── layouts/              
+│   ├── orders-admins/        
+│   ├── products-admins/      
+│   ├── styles/               
+│   └── index.php             
 │
-├── auth/                     # Customer authentication
+├── auth/                  
 │   ├── login.php
 │   ├── register.php
 │   └── logout.php
 │
 ├── booking/
-│   └── book.php              # Table reservation form handler
+│   └── book.php             
 │
 ├── config/
-│   └── config.php            # Database connection (PDO)
+│   └── config.php           
 │
-├── css/                      # Stylesheets
-│   ├── bootstrap/            # Bootstrap 4 source
-│   └── css/                  # Custom styles and vendor CSS
+├── css/                      
+│   ├── bootstrap/          
+│   └── css/                 
 │
 ├── fonts/
-│   └── flaticon/             # Custom icon font
+│   └── flaticon/         
 │
-├── includes/                 # Shared page templates
-│   ├── header.php            # Navbar, meta tags, CSS imports
-│   └── footer.php            # Footer, JS imports, loader
+├── includes/              
+│   ├── header.php          
+│   └── footer.php          
 │
-├── js/                       # JavaScript libraries & custom scripts
+├── js/                   
 │   ├── jquery.min.js
 │   ├── bootstrap.min.js
 │   ├── owl.carousel.min.js
 │   ├── aos.js
-│   ├── main.js               # Custom app logic
-│   └── ...                   # Other vendor scripts
+│   ├── main.js         
+│   └── ...        
 │
-├── products/                 # Product & cart pages
-│   ├── product-single.php    # Product detail + add to cart
-│   ├── cart.php              # Shopping cart
-│   ├── checkout.php          # Billing form & order placement
-│   ├── pay.php               # PayPal payment page
-│   ├── delete-cart.php       # Clear cart after payment
-│   └── delete-product.php    # Remove single cart item
+├── products/           
+│   ├── product-single.php   
+│   ├── cart.php             
+│   ├── checkout.php         
+│   ├── pay.php               
+│   ├── delete-cart.php       
+│   └── delete-product.php    
 │
 ├── reviews/
-│   └── write-review.php      # Customer review submission
+│   └── write-review.php     
 │
 └── scss/
-    └── bootstrap/            # Bootstrap SCSS source
+    └── bootstrap/          
 ```
 
 ---
